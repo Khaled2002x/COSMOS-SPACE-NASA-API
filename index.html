@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COSMOS - Space Dashboard</title>
     <link rel="icon" href="./assets/images/favicon.png" />
+
     <script>
       window.FontAwesomeConfig = { autoReplaceSvg: "nest" };
     </script>
@@ -334,11 +335,11 @@
                     >
                       <div class="flex items-center gap-2">
                         <i class="fas fa-building"></i>
-                        <span>SpaceX</span>
+                        <span class="leading_building">SpaceX</span>
                       </div>
                       <div class="flex items-center gap-2">
                         <i class="fas fa-rocket"></i>
-                        <span>Starship</span>
+                        <span class="starship_rocket">Starship</span>
                       </div>
                     </div>
                     <div
@@ -358,7 +359,7 @@
                           <i class="fas fa-calendar"></i>
                           Launch Date
                         </p>
-                        <p class="font-semibold">March 14, 2024</p>
+                        <p class="font-semibold Launch_Date">March 14, 2024</p>
                       </div>
                       <div class="bg-slate-900/50 rounded-xl p-4">
                         <p
@@ -367,7 +368,7 @@
                           <i class="fas fa-clock"></i>
                           Launch Time
                         </p>
-                        <p class="font-semibold">12:00 PM UTC</p>
+                        <p class="font-semibold time_lunch">12:00 PM UTC</p>
                       </div>
                       <div class="bg-slate-900/50 rounded-xl p-4">
                         <p
@@ -376,7 +377,9 @@
                           <i class="fas fa-map-marker-alt"></i>
                           Location
                         </p>
-                        <p class="font-semibold text-sm">Starbase, Texas</p>
+                        <p class="font-semibold text-sm hero_location">
+                          Starbase, Texas
+                        </p>
                       </div>
                       <div class="bg-slate-900/50 rounded-xl p-4">
                         <p
@@ -385,10 +388,10 @@
                           <i class="fas fa-globe"></i>
                           Country
                         </p>
-                        <p class="font-semibold">USA</p>
+                        <p class="font-semibold country">USA</p>
                       </div>
                     </div>
-                    <p class="text-slate-300 leading-relaxed mb-6">
+                    <p class="text-slate-300 leading-relaxed hero_desc mb-6">
                       The third integrated flight test of Starship. The
                       prototype for the heavy-lift launch vehicle is currently
                       being built by SpaceX.
@@ -423,7 +426,12 @@
                     <div
                       class="flex items-center justify-center h-full min-h-[400px] bg-slate-800"
                     >
-                      <i class="fas fa-rocket text-9xl text-slate-700/50"></i>
+                      <img
+                        src=""
+                        class="img_hero_lunch"
+                        style="height: 100%; object-fit: cover"
+                        alt=""
+                      />
                     </div>
                     <div
                       class="absolute inset-0 bg-linear-to-t from-slate-900 via-transparent to-transparent"

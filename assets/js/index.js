@@ -18,6 +18,16 @@ const dom = {
   load_img: document.querySelector(".load_img"),
   load_date_btn: document.getElementById("load-date-btn"),
   today_apod_btn: document.getElementById("today-apod-btn"),
+  leading_tight: document.querySelector(".leading-tight"),
+  leading_building: document.querySelector(".leading_building"),
+  starship_rocket: document.querySelector(".starship_rocket"),
+  Launch_Date: document.querySelector(".Launch_Date"),
+  time_lunch: document.querySelector(".time_lunch"),
+  hero_location: document.querySelector(".hero_location"),
+  country: document.querySelector(".country"),
+  hero_desc: document.querySelector(".hero_desc"),
+  img_hero_lunch: document.querySelector(".img_hero_lunch"),
+  launches_grid: document.getElementById("launches-grid"),
 };
 // auto date
 let current_date = new Date();
@@ -52,16 +62,16 @@ dom.nav_link.forEach((nav) => {
 
 console.log(`${yaer}-${month}-${day}`);
 
-async function fetchdata_space_today(date) {
+async function fetchdata_space_today(api_link) {
   try {
-    let data = await fetch(
-      ` https://api.nasa.gov/planetary/apod?api_key=rnIs5dw7lTBxZWyzLT2A6C1dSyzI8rOfdcAlvp4S&date=${date}`
-    );
-    let response = await data.json();
+    let data = await fetch(`${api_link}`);
 
     if (!data.ok) {
       throw new Error("error" + data.message);
     } else {
+      let response = await data.json();
+      console.log(response);
+
       return response;
     }
   } catch (error) {
@@ -73,7 +83,9 @@ dom.apod_date_input.addEventListener("change", () => {
   dom.curr_date.innerHTML = dom.apod_date_input.value;
 });
 async function display_current_space_picture(date) {
-  let data = await fetchdata_space_today(date);
+  let data = await fetchdata_space_today(
+    `https://api.nasa.gov/planetary/apod?api_key=rnIs5dw7lTBxZWyzLT2A6C1dSyzI8rOfdcAlvp4S&date=${date}`
+  );
   dom.live_date.innerHTML = data.date;
   dom.apod_image.src = `${data.hdurl}`;
   dom.apod_title.innerHTML = data.title;
@@ -106,11 +118,14 @@ window.addEventListener("load", () => {
 
   dom.curr_date.innerHTML = dom.apod_date_input.value;
   display_current_space_picture(`${yaer}-${month}-${day}`);
+  DisplayUpcomingLaunches();
 });
+// load image by date button
 function loadByDate() {
   let date_value = dom.apod_date_input.value;
   display_current_space_picture(date_value);
 }
+// load image today button
 function loadtodayimage() {
   display_current_space_picture(`${yaer}-${month}-${day}`);
   dom.apod_date_input.value = `${yaer}-${month}-${day}`;
@@ -118,3 +133,42 @@ function loadtodayimage() {
 }
 dom.today_apod_btn.addEventListener("click", () => loadtodayimage());
 dom.load_date_btn.addEventListener("click", () => loadByDate());
+//
+
+async function DisplayUpcomingLaunches() {
+  let data = await fetchdata_space_today(`./assets/js/data.json`);
+  dom.leading_tight.innerHTML = data.results[0].name;
+  dom.leading_building.innerHTML = data.results[0].launch_service_provider.name;
+  dom.starship_rocket.innerHTML = data.results[0].rocket.configuration.name;
+  dom.Launch_Date.innerHTML = returnFormayyedDate(data.results[0].window_start);
+  dom.time_lunch.innerHTML = returnTimeformatted(data.results[0].net) + " UTC";
+  dom.hero_location.innerHTML = data.results[0].pad.location.name;
+  dom.country.innerHTML = data.results[0].pad.country.nationality_name;
+  dom.hero_desc.innerHTML = data.results[0].mission.description;
+  dom.img_hero_lunch.src = `${data.results[0].image.image_url}`;
+  let cartonna = "";
+  for (let i = 1; i < data.results.length; i++) {
+    cartonna += ``;
+  }
+}
+//formate api date**
+function returnFormayyedDate(parm) {
+  let apiDate = new Date(parm).toLocaleString("en-Us", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    weekday: "long",
+  });
+  return apiDate;
+}
+
+function returnTimeformatted(parm) {
+  let formattedTime = new Date(parm).toLocaleTimeString("en-Us", {
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+    timeZone: "UTC",
+  });
+  return formattedTime;
+}
+console.log(returnTimeformatted("2025-12-24T03:25:30Z"));
