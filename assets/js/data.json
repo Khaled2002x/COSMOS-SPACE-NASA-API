@@ -1,2439 +1,2038 @@
 {
-    "count": 353,
-    "next": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=10&offset=10",
-    "previous": null,
-    "results": [
+  "bodies": [
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "englishName": "Uranus",
+      "isPlanet": true,
+      "moons": [
         {
-            "id": "1c040590-5157-4850-86e2-f878dd7d49d4",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/1c040590-5157-4850-86e2-f878dd7d49d4/",
-            "name": "LVM-3 | BlueBird Block 2 #1",
-            "response_mode": "normal",
-            "slug": "lvm-3-bluebird-block-2-1",
-            "launch_designator": null,
-            "status": {
-                "id": 3,
-                "name": "Launch Successful",
-                "abbrev": "Success",
-                "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
-            },
-            "last_updated": "2025-12-24T05:22:47Z",
-            "net": "2025-12-24T03:25:30Z",
-            "net_precision": {
-                "id": 0,
-                "name": "Second",
-                "abbrev": "SEC",
-                "description": "The T-0 is accurate to the second."
-            },
-            "window_end": "2025-12-24T06:50:00Z",
-            "window_start": "2025-12-24T02:50:00Z",
-            "image": {
-                "id": 1784,
-                "name": "[AUTO] LVM-3 (GSLV Mk III) - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520iii_image_20190604000938.jpg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
-                "credit": null,
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": true,
-                "variants": []
-            },
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 31,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/31/",
-                "name": "Indian Space Research Organization",
-                "abbrev": "ISRO",
-                "type": {
-                    "id": 1,
-                    "name": "Government"
-                }
-            },
-            "rocket": {
-                "id": 8407,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 172,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/172/",
-                    "name": "LVM-3 (GSLV Mk III)",
-                    "families": [
-                        {
-                            "response_mode": "list",
-                            "id": 84,
-                            "name": "GSLV"
-                        }
-                    ],
-                    "full_name": "Launch Vehicle Mark-3 (GSLV Mk III)",
-                    "variant": ""
-                }
-            },
-            "mission": {
-                "id": 6995,
-                "name": "BlueBird Block 2 #1",
-                "type": "Communications",
-                "description": "AST SpaceMobile’s Block 2 BlueBird satellites are designed to deliver up to 10 times the bandwidth capacity of the BlueBird Block 1 satellites, required to achieve 24/7 continuous cellular broadband service coverage in the United States, with beams designed to support a capacity of up to 40 MHz, enabling peak data transmission speeds up to 120 Mbps, supporting voice, full data and video applications. The Block 2 BlueBirds, featuring as large as 2400 square foot communications arrays, will be the largest satellites ever commercially deployed in Low Earth orbit once launched.\r\n\r\nThis launch will feature a single satellite.",
-                "image": null,
-                "orbit": {
-                    "id": 8,
-                    "name": "Low Earth Orbit",
-                    "abbrev": "LEO",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 82,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/82/",
-                "active": true,
-                "agencies": [
-                    {
-                        "response_mode": "normal",
-                        "id": 31,
-                        "url": "https://ll.thespacedevs.com/2.3.0/agencies/31/",
-                        "name": "Indian Space Research Organization",
-                        "abbrev": "ISRO",
-                        "type": {
-                            "id": 1,
-                            "name": "Government"
-                        },
-                        "featured": true,
-                        "country": [
-                            {
-                                "id": 9,
-                                "name": "India",
-                                "alpha_2_code": "IN",
-                                "alpha_3_code": "IND",
-                                "nationality_name": "Indian",
-                                "nationality_name_composed": "Indo"
-                            }
-                        ],
-                        "description": "The Indian Space Research Organisation (ISRO) is the space agency of the Government of India headquartered in the city of Bangalore. Its vision is to \"harness space technology for national development while pursuing space science research and planetary exploration.\"",
-                        "administrator": "Chairman: V. Narayanan",
-                        "founding_year": 1969,
-                        "launchers": "PSLV | GSLV",
-                        "spacecraft": "Gaganyaan",
-                        "parent": null,
-                        "image": {
-                            "id": 14,
-                            "name": "[AUTO] Indian Space Research Organization - image",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_image_20190215225409.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184615.jpeg",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "logo": {
-                            "id": 141,
-                            "name": "[AUTO] Indian Space Research Organization - logo",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_logo_20190215225409.png",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185007.png",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "social_logo": {
-                            "id": 63,
-                            "name": "[AUTO] Indian Space Research Organization - social_logo",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_nation_20230624125733.jpg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184805.jpeg",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        }
-                    }
-                ],
-                "name": "Satish Dhawan Space Centre Second Launch Pad",
-                "image": {
-                    "id": 1992,
-                    "name": "Second Launch Pad",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/second_launch_p_image_20240311093204.jpeg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/second_launch_p_image_thumbnail_20240311093204.jpeg",
-                    "credit": "Indian Space Research Organisation",
-                    "license": {
-                        "id": 11,
-                        "name": "Government Open Data License - India (GODL)",
-                        "priority": 3,
-                        "link": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf"
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "description": "The second launch pad was built between 1999 and 2003.  It became functional in 2005 and has since been used for various rockets. This launch pad supports missions by PSLV, GSLV, LVM3 rockets and is even envisioned for India's future crewed spaceflight.",
-                "info_url": null,
-                "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_Second_Launch_Pad",
-                "map_url": "https://www.google.com/maps?q=13.7199,80.2304",
-                "latitude": 13.7199,
-                "longitude": 80.2304,
-                "country": {
-                    "id": 9,
-                    "name": "India",
-                    "alpha_2_code": "IN",
-                    "alpha_3_code": "IND",
-                    "nationality_name": "Indian",
-                    "nationality_name_composed": "Indo"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_82_20200803143602.jpg",
-                "total_launch_count": 32,
-                "orbital_launch_attempt_count": 31,
-                "fastest_turnaround": "P31DT31M",
-                "location": {
-                    "response_mode": "normal",
-                    "id": 14,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/14/",
-                    "name": "Satish Dhawan Space Centre, India",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 9,
-                        "name": "India",
-                        "alpha_2_code": "IN",
-                        "alpha_3_code": "IND",
-                        "nationality_name": "Indian",
-                        "nationality_name_composed": "Indo"
-                    },
-                    "description": "Satish Dhawan Space Centre – SDSC (formerly Sriharikota Range – SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
-                    "image": {
-                        "id": 2212,
-                        "name": "Satish Dhawan Space Centre",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/satish_dhawan_s_image_20240919164153.png",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/satish_dhawan_s_image_thumbnail_20240919164154.png",
-                        "credit": "ISRO",
-                        "license": {
-                            "id": 11,
-                            "name": "Government Open Data License - India (GODL)",
-                            "priority": 3,
-                            "link": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf"
-                        },
-                        "single_use": true,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
-                    "longitude": 80.23,
-                    "latitude": 13.72,
-                    "timezone_name": "Asia/Kolkata",
-                    "total_launch_count": 102,
-                    "total_landing_count": 0
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7167,
-            "location_launch_attempt_count": 102,
-            "pad_launch_attempt_count": 32,
-            "agency_launch_attempt_count": 98,
-            "orbital_launch_attempt_count_year": 318,
-            "location_launch_attempt_count_year": 5,
-            "pad_launch_attempt_count_year": 4,
-            "agency_launch_attempt_count_year": 5
+          "moon": "Ariel",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/ariel"
         },
         {
-            "id": "7b60de1e-7d8a-4213-a2f5-44a01ae21e28",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/7b60de1e-7d8a-4213-a2f5-44a01ae21e28/",
-            "name": "Soyuz 2.1a | Obzor-R No.1",
-            "response_mode": "normal",
-            "slug": "soyuz-21a-obzor-r-no1",
-            "launch_designator": null,
-            "status": {
-                "id": 1,
-                "name": "Go for Launch",
-                "abbrev": "Go",
-                "description": "Current T-0 confirmed by official or reliable sources."
-            },
-            "last_updated": "2025-12-19T21:14:22Z",
-            "net": "2025-12-24T14:00:00Z",
-            "net_precision": {
-                "id": 2,
-                "name": "Hour",
-                "abbrev": "HR",
-                "description": "The T-0 is accurate to the hour."
-            },
-            "window_end": "2025-12-24T15:00:00Z",
-            "window_start": "2025-12-24T14:00:00Z",
-            "image": {
-                "id": 1828,
-                "name": "[AUTO] Soyuz 2.1a - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193857.jpeg",
-                "credit": null,
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": true,
-                "variants": []
-            },
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 63,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
-                "name": "Russian Federal Space Agency (ROSCOSMOS)",
-                "abbrev": "RFSA",
-                "type": {
-                    "id": 1,
-                    "name": "Government"
-                }
-            },
-            "rocket": {
-                "id": 2509,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 24,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/24/",
-                    "name": "Soyuz 2.1a",
-                    "families": [
-                        {
-                            "response_mode": "list",
-                            "id": 147,
-                            "name": "Soyuz"
-                        },
-                        {
-                            "response_mode": "list",
-                            "id": 190,
-                            "name": "Soyuz 2"
-                        }
-                    ],
-                    "full_name": "Soyuz 2.1a",
-                    "variant": ""
-                }
-            },
-            "mission": {
-                "id": 6636,
-                "name": "Obzor-R No.1",
-                "type": "Earth Science",
-                "description": "The Russian Obzor-R satellite is a planned X-band radar earth observation satellite designed by TsSKB-Progress.\r\n\r\nIn 2012, the development of the Arkon-2M radar satellite was stopped and instead the development of the Obzor-R was initiated.\r\n\r\nThe satellite features the BRLK X-band Synthetic Aperture Radar as the imaging instrument with a ground resolution of 500 m.",
-                "image": null,
-                "orbit": {
-                    "id": 17,
-                    "name": "Sun-Synchronous Orbit",
-                    "abbrev": "SSO",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 48,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/48/",
-                "active": true,
-                "agencies": [
-                    {
-                        "response_mode": "normal",
-                        "id": 163,
-                        "url": "https://ll.thespacedevs.com/2.3.0/agencies/163/",
-                        "name": "Russian Aerospace Defence Forces",
-                        "abbrev": "VKO",
-                        "type": {
-                            "id": 1,
-                            "name": "Government"
-                        },
-                        "featured": false,
-                        "country": [
-                            {
-                                "id": 5,
-                                "name": "Russia",
-                                "alpha_2_code": "RU",
-                                "alpha_3_code": "RUS",
-                                "nationality_name": "Russian",
-                                "nationality_name_composed": "Russo"
-                            }
-                        ],
-                        "description": null,
-                        "administrator": null,
-                        "founding_year": null,
-                        "launchers": "",
-                        "spacecraft": "",
-                        "parent": "Russian Federal Space Agency (ROSCOSMOS)",
-                        "image": null,
-                        "logo": null,
-                        "social_logo": null
-                    }
-                ],
-                "name": "Unknown Pad",
-                "image": null,
-                "description": null,
-                "info_url": null,
-                "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome",
-                "map_url": "https://www.google.com/maps?q=62.925556,40.577778",
-                "latitude": 62.925556,
-                "longitude": 40.577778,
-                "country": {
-                    "id": 5,
-                    "name": "Russia",
-                    "alpha_2_code": "RU",
-                    "alpha_3_code": "RUS",
-                    "nationality_name": "Russian",
-                    "nationality_name_composed": "Russo"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_48_20200803143459.jpg",
-                "total_launch_count": 0,
-                "orbital_launch_attempt_count": 0,
-                "fastest_turnaround": null,
-                "location": {
-                    "response_mode": "normal",
-                    "id": 6,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/6/",
-                    "name": "Plesetsk Cosmodrome, Russian Federation",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 5,
-                        "name": "Russia",
-                        "alpha_2_code": "RU",
-                        "alpha_3_code": "RUS",
-                        "nationality_name": "Russian",
-                        "nationality_name_composed": "Russo"
-                    },
-                    "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
-                    "image": {
-                        "id": 1461,
-                        "name": "Soyuz 2.1b/Fregat-M liftoff from pad 43/3 (Glonass-K2 No. 13, Kosmos 2569)",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1b_image_20230807181912.jpg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192834.jpeg",
-                        "credit": "Mil.ru",
-                        "license": {
-                            "id": 30,
-                            "name": "CC BY 4.0",
-                            "priority": 4,
-                            "link": "https://creativecommons.org/licenses/by/4.0/"
-                        },
-                        "single_use": false,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
-                    "longitude": 40.577778,
-                    "latitude": 62.925556,
-                    "timezone_name": "Europe/Moscow",
-                    "total_launch_count": 1679,
-                    "total_landing_count": 0
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7168,
-            "location_launch_attempt_count": 1680,
-            "pad_launch_attempt_count": 1,
-            "agency_launch_attempt_count": 337,
-            "orbital_launch_attempt_count_year": 319,
-            "location_launch_attempt_count_year": 9,
-            "pad_launch_attempt_count_year": 1,
-            "agency_launch_attempt_count_year": 8
+          "moon": "Umbriel",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/umbriel"
         },
         {
-            "id": "f4909efe-4764-43fa-9e4a-07e479af1ba7",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/f4909efe-4764-43fa-9e4a-07e479af1ba7/",
-            "name": "Long March 8A | Unknown Payload",
-            "response_mode": "normal",
-            "slug": "long-march-8a-unknown-payload",
-            "launch_designator": null,
-            "status": {
-                "id": 1,
-                "name": "Go for Launch",
-                "abbrev": "Go",
-                "description": "Current T-0 confirmed by official or reliable sources."
-            },
-            "last_updated": "2025-12-19T16:23:25Z",
-            "net": "2025-12-25T23:25:00Z",
-            "net_precision": {
-                "id": 2,
-                "name": "Hour",
-                "abbrev": "HR",
-                "description": "The T-0 is accurate to the hour."
-            },
-            "window_end": "2025-12-25T23:43:00Z",
-            "window_start": "2025-12-25T23:18:00Z",
-            "image": {
-                "id": 2616,
-                "name": "CZ-8A Launch (SatNet LEO Group 14)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
-                "credit": "CASC",
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": false,
-                "variants": []
-            },
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 88,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/88/",
-                "name": "China Aerospace Science and Technology Corporation",
-                "abbrev": "CASC",
-                "type": {
-                    "id": 1,
-                    "name": "Government"
-                }
-            },
-            "rocket": {
-                "id": 8856,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 518,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/518/",
-                    "name": "Long March 8A",
-                    "families": [
-                        {
-                            "response_mode": "list",
-                            "id": 106,
-                            "name": "Long March"
-                        },
-                        {
-                            "response_mode": "list",
-                            "id": 115,
-                            "name": "Long March 8"
-                        }
-                    ],
-                    "full_name": "Long March 8A",
-                    "variant": "A"
-                }
-            },
-            "mission": {
-                "id": 7447,
-                "name": "Unknown Payload",
-                "type": "Unknown",
-                "description": "Details TBD.",
-                "image": null,
-                "orbit": {
-                    "id": 25,
-                    "name": "Unknown",
-                    "abbrev": "N/A",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 218,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/218/",
-                "active": true,
-                "agencies": [],
-                "name": "Commercial LC-1",
-                "image": null,
-                "description": "",
-                "info_url": null,
-                "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Commercial_Space_Launch_Site",
-                "map_url": "https://www.google.com/maps?q=19.597275,110.930753",
-                "latitude": 19.597275,
-                "longitude": 110.930753,
-                "country": {
-                    "id": 6,
-                    "name": "China",
-                    "alpha_2_code": "CN",
-                    "alpha_3_code": "CHN",
-                    "nationality_name": "Chinese",
-                    "nationality_name_composed": "Sino"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_commercial_lc-1_20231225074041.jpg",
-                "total_launch_count": 5,
-                "orbital_launch_attempt_count": 5,
-                "fastest_turnaround": "P26DT11H19M",
-                "location": {
-                    "response_mode": "normal",
-                    "id": 8,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/8/",
-                    "name": "Wenchang Space Launch Site, People's Republic of China",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 6,
-                        "name": "China",
-                        "alpha_2_code": "CN",
-                        "alpha_3_code": "CHN",
-                        "nationality_name": "Chinese",
-                        "nationality_name_composed": "Sino"
-                    },
-                    "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19° north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
-                    "image": {
-                        "id": 2019,
-                        "name": "CZ-8 liftoff from pad 201 (Queqiao-2)",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_20240320175819.jpeg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_thumbnail_20240320175820.jpeg",
-                        "credit": "秦英健/Qin Yingjian",
-                        "license": {
-                            "id": 1,
-                            "name": "Unknown",
-                            "priority": 9,
-                            "link": null
-                        },
-                        "single_use": false,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
-                    "longitude": 110.951133,
-                    "latitude": 19.614492,
-                    "timezone_name": "Asia/Shanghai",
-                    "total_launch_count": 53,
-                    "total_landing_count": 0
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7169,
-            "location_launch_attempt_count": 54,
-            "pad_launch_attempt_count": 6,
-            "agency_launch_attempt_count": 567,
-            "orbital_launch_attempt_count_year": 320,
-            "location_launch_attempt_count_year": 20,
-            "pad_launch_attempt_count_year": 6,
-            "agency_launch_attempt_count_year": 66
+          "moon": "Titania",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/titania"
         },
         {
-            "id": "b7c38b80-6ce7-4ab0-8010-19ee11e26fc5",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/b7c38b80-6ce7-4ab0-8010-19ee11e26fc5/",
-            "name": "Smart Dragon 3 | Unknown Payload",
-            "response_mode": "normal",
-            "slug": "smart-dragon-3-unknown-payload",
-            "launch_designator": null,
-            "status": {
-                "id": 1,
-                "name": "Go for Launch",
-                "abbrev": "Go",
-                "description": "Current T-0 confirmed by official or reliable sources."
-            },
-            "last_updated": "2025-12-22T15:53:48Z",
-            "net": "2025-12-26T06:30:00Z",
-            "net_precision": {
-                "id": 2,
-                "name": "Hour",
-                "abbrev": "HR",
-                "description": "The T-0 is accurate to the hour."
-            },
-            "window_end": "2025-12-26T06:47:00Z",
-            "window_start": "2025-12-26T06:26:00Z",
-            "image": {
-                "id": 2251,
-                "name": "Smart Dragon 3 liftoff (8 satellites)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_thumbnail_20240925074607.jpeg",
-                "credit": "CASC",
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": false,
-                "variants": []
-            },
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 272,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/272/",
-                "name": "China Rocket Co. Ltd.",
-                "abbrev": "CHNR",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                }
-            },
-            "rocket": {
-                "id": 8861,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 484,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/484/",
-                    "name": "Smart Dragon 3",
-                    "families": [
-                        {
-                            "response_mode": "list",
-                            "id": 145,
-                            "name": "Smart Dragon"
-                        }
-                    ],
-                    "full_name": "Smart Dragon 3",
-                    "variant": ""
-                }
-            },
-            "mission": {
-                "id": 7452,
-                "name": "Unknown Payload",
-                "type": "Unknown",
-                "description": "Possibly an Earth observation satellite for the Pakistan government's SUPARCO, details TBD.",
-                "image": null,
-                "orbit": {
-                    "id": 25,
-                    "name": "Unknown",
-                    "abbrev": "N/A",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 221,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/221/",
-                "active": true,
-                "agencies": [
-                    {
-                        "response_mode": "normal",
-                        "id": 88,
-                        "url": "https://ll.thespacedevs.com/2.3.0/agencies/88/",
-                        "name": "China Aerospace Science and Technology Corporation",
-                        "abbrev": "CASC",
-                        "type": {
-                            "id": 1,
-                            "name": "Government"
-                        },
-                        "featured": true,
-                        "country": [
-                            {
-                                "id": 6,
-                                "name": "China",
-                                "alpha_2_code": "CN",
-                                "alpha_3_code": "CHN",
-                                "nationality_name": "Chinese",
-                                "nationality_name_composed": "Sino"
-                            }
-                        ],
-                        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-                        "administrator": "Chairman & President: Lei Fanpei",
-                        "founding_year": 1999,
-                        "launchers": "Long March",
-                        "spacecraft": "",
-                        "parent": null,
-                        "image": {
-                            "id": 8,
-                            "name": "[AUTO] China Aerospace Science and Technology Corporation - image",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184558.jpeg",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "logo": {
-                            "id": 124,
-                            "name": "[AUTO] China Aerospace Science and Technology Corporation - logo",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184933.png",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "social_logo": {
-                            "id": 50,
-                            "name": "[AUTO] China Aerospace Science and Technology Corporation - social_logo",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184746.png",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        }
-                    }
-                ],
-                "name": "Oriental Spaceport mobile launch ship",
-                "image": null,
-                "description": "",
-                "info_url": null,
-                "wiki_url": null,
-                "map_url": "https://www.google.com/maps?q=35.391667%2C119.598667",
-                "latitude": 35.391667,
-                "longitude": 119.598667,
-                "country": {
-                    "id": 6,
-                    "name": "China",
-                    "alpha_2_code": "CN",
-                    "alpha_3_code": "CHN",
-                    "nationality_name": "Chinese",
-                    "nationality_name_composed": "Sino"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_oriental_spaceport_mobile_launch_ship_20240529085416.jpg",
-                "total_launch_count": 7,
-                "orbital_launch_attempt_count": 7,
-                "fastest_turnaround": "P15DT12H8M",
-                "location": {
-                    "response_mode": "normal",
-                    "id": 185,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/185/",
-                    "name": "Haiyang Oriental Spaceport",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 6,
-                        "name": "China",
-                        "alpha_2_code": "CN",
-                        "alpha_3_code": "CHN",
-                        "nationality_name": "Chinese",
-                        "nationality_name_composed": "Sino"
-                    },
-                    "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
-                    "image": {
-                        "id": 1355,
-                        "name": "Gravity-1 liftoff from Haiyang Spaceport (Maiden flight)",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-12520_image_20240112065126.jpg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192513.jpeg",
-                        "credit": "OrienSpace",
-                        "license": {
-                            "id": 1,
-                            "name": "Unknown",
-                            "priority": 9,
-                            "link": null
-                        },
-                        "single_use": true,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
-                    "longitude": 121.235103,
-                    "latitude": 36.676794,
-                    "timezone_name": "Asia/Shanghai",
-                    "total_launch_count": 21,
-                    "total_landing_count": 0
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7170,
-            "location_launch_attempt_count": 22,
-            "pad_launch_attempt_count": 8,
-            "agency_launch_attempt_count": 10,
-            "orbital_launch_attempt_count_year": 321,
-            "location_launch_attempt_count_year": 8,
-            "pad_launch_attempt_count_year": 6,
-            "agency_launch_attempt_count_year": 5
+          "moon": "Obéron",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/oberon"
         },
         {
-            "id": "9d69b85a-940d-4c1a-be75-6449d3b2a836",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/9d69b85a-940d-4c1a-be75-6449d3b2a836/",
-            "name": "Long March 3B/E | Fengyun-4C",
-            "response_mode": "normal",
-            "slug": "long-march-3be-fengyun-4c",
-            "launch_designator": null,
-            "status": {
-                "id": 1,
-                "name": "Go for Launch",
-                "abbrev": "Go",
-                "description": "Current T-0 confirmed by official or reliable sources."
-            },
-            "last_updated": "2025-12-22T14:50:33Z",
-            "net": "2025-12-26T16:05:00Z",
-            "net_precision": {
-                "id": 2,
-                "name": "Hour",
-                "abbrev": "HR",
-                "description": "The T-0 is accurate to the hour."
-            },
-            "window_end": "2025-12-26T16:56:00Z",
-            "window_start": "2025-12-26T16:00:00Z",
-            "image": {
-                "id": 1491,
-                "name": "[AUTO] Long March 3B/E | ChinaSat 26 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192932.jpeg",
-                "credit": "China Aerospace Science and Technology Corporation",
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": false,
-                "variants": []
-            },
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 88,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/88/",
-                "name": "China Aerospace Science and Technology Corporation",
-                "abbrev": "CASC",
-                "type": {
-                    "id": 1,
-                    "name": "Government"
-                }
-            },
-            "rocket": {
-                "id": 138,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 50,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/50/",
-                    "name": "Long March 3B/E",
-                    "families": [
-                        {
-                            "response_mode": "list",
-                            "id": 106,
-                            "name": "Long March"
-                        },
-                        {
-                            "response_mode": "list",
-                            "id": 110,
-                            "name": "Long March 3"
-                        }
-                    ],
-                    "full_name": "Long March 3B/E",
-                    "variant": "B/E"
-                }
-            },
-            "mission": {
-                "id": 6709,
-                "name": "Fengyun-4C",
-                "type": "Earth Science",
-                "description": "China's geostationary meteorological satellite program FY-4 (Feng Yun 4) is the second generation of chinese geostationary meteorological satellites.",
-                "image": null,
-                "orbit": {
-                    "id": 2,
-                    "name": "Geostationary Transfer Orbit",
-                    "abbrev": "GTO",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 45,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/45/",
-                "active": true,
-                "agencies": [],
-                "name": "Launch Complex 2 (LC-2)",
-                "image": {
-                    "id": 1421,
-                    "name": "Long March 3B/E liftoff from LC-2 (Beidou-3 G4)",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230728061656.jpeg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192718.jpeg",
-                    "credit": "China Pictorial/Wanquan",
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": false,
-                    "variants": []
-                },
-                "description": "",
-                "info_url": null,
-                "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
-                "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
-                "latitude": 28.245564,
-                "longitude": 102.026751,
-                "country": {
-                    "id": 6,
-                    "name": "China",
-                    "alpha_2_code": "CN",
-                    "alpha_3_code": "CHN",
-                    "nationality_name": "Chinese",
-                    "nationality_name_composed": "Sino"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
-                "total_launch_count": 122,
-                "orbital_launch_attempt_count": 122,
-                "fastest_turnaround": "P16DT14H32M",
-                "location": {
-                    "response_mode": "normal",
-                    "id": 16,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/16/",
-                    "name": "Xichang Satellite Launch Center, People's Republic of China",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 6,
-                        "name": "China",
-                        "alpha_2_code": "CN",
-                        "alpha_3_code": "CHN",
-                        "nationality_name": "Chinese",
-                        "nationality_name_composed": "Sino"
-                    },
-                    "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
-                    "image": {
-                        "id": 1421,
-                        "name": "Long March 3B/E liftoff from LC-2 (Beidou-3 G4)",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230728061656.jpeg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192718.jpeg",
-                        "credit": "China Pictorial/Wanquan",
-                        "license": {
-                            "id": 1,
-                            "name": "Unknown",
-                            "priority": 9,
-                            "link": null
-                        },
-                        "single_use": false,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
-                    "longitude": 102.026556,
-                    "latitude": 28.246017,
-                    "timezone_name": "Asia/Shanghai",
-                    "total_launch_count": 235,
-                    "total_landing_count": 0
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7171,
-            "location_launch_attempt_count": 236,
-            "pad_launch_attempt_count": 123,
-            "agency_launch_attempt_count": 568,
-            "orbital_launch_attempt_count_year": 322,
-            "location_launch_attempt_count_year": 19,
-            "pad_launch_attempt_count_year": 9,
-            "agency_launch_attempt_count_year": 67
+          "moon": "Miranda",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/miranda"
         },
         {
-            "id": "7650a17a-cc52-4597-bd1a-0951d7389a95",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/7650a17a-cc52-4597-bd1a-0951d7389a95/",
-            "name": "Ceres-2 | Demo Flight",
-            "response_mode": "normal",
-            "slug": "ceres-2-demo-flight",
-            "launch_designator": null,
-            "status": {
-                "id": 1,
-                "name": "Go for Launch",
-                "abbrev": "Go",
-                "description": "Current T-0 confirmed by official or reliable sources."
-            },
-            "last_updated": "2025-12-24T05:03:43Z",
-            "net": "2025-12-27T04:05:00Z",
-            "net_precision": {
-                "id": 2,
-                "name": "Hour",
-                "abbrev": "HR",
-                "description": "The T-0 is accurate to the hour."
-            },
-            "window_end": "2025-12-27T04:20:00Z",
-            "window_start": "2025-12-27T03:58:00Z",
-            "image": {
-                "id": 2620,
-                "name": "Ceres-2 Illustration",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-2_illustr_image_20251210054657.png",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-2_illustr_image_thumbnail_20251210054658.png",
-                "credit": "Galactic Energy",
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": true,
-                "variants": []
-            },
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 1021,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/1021/",
-                "name": "Galactic Energy",
-                "abbrev": "GE",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                }
-            },
-            "rocket": {
-                "id": 8828,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 546,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/546/",
-                    "name": "Ceres-2",
-                    "families": [],
-                    "full_name": "Ceres-2",
-                    "variant": ""
-                }
-            },
-            "mission": {
-                "id": 7419,
-                "name": "Demo Flight",
-                "type": "Test Flight",
-                "description": "First test launch of Galactic Energy’s Ceres-2 rocket.",
-                "image": null,
-                "orbit": {
-                    "id": 25,
-                    "name": "Unknown",
-                    "abbrev": "N/A",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 21,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/21/",
-                "active": true,
-                "agencies": [],
-                "name": "Launch Area 95A",
-                "image": {
-                    "id": 1329,
-                    "name": "Ceres-1 liftoff from LA-95A (Jilin-1 High Resolution 03D-08, 51 to 54)",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1252025_image_20230703100031.jpeg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192423.jpeg",
-                    "credit": "Galactic Energy",
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": false,
-                    "variants": []
-                },
-                "description": "",
-                "info_url": null,
-                "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
-                "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
-                "latitude": 40.969117,
-                "longitude": 100.343333,
-                "country": {
-                    "id": 6,
-                    "name": "China",
-                    "alpha_2_code": "CN",
-                    "alpha_3_code": "CHN",
-                    "nationality_name": "Chinese",
-                    "nationality_name_composed": "Sino"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
-                "total_launch_count": 64,
-                "orbital_launch_attempt_count": 64,
-                "fastest_turnaround": "P2DT1H47M",
-                "location": {
-                    "response_mode": "normal",
-                    "id": 17,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/17/",
-                    "name": "Jiuquan Satellite Launch Center, People's Republic of China",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 6,
-                        "name": "China",
-                        "alpha_2_code": "CN",
-                        "alpha_3_code": "CHN",
-                        "nationality_name": "Chinese",
-                        "nationality_name_composed": "Sino"
-                    },
-                    "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
-                    "image": {
-                        "id": 1374,
-                        "name": "Long March 2F/G liftoff (Shenzhou 16)",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20240101085213.jpeg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192548.jpeg",
-                        "credit": "CMS",
-                        "license": {
-                            "id": 1,
-                            "name": "Unknown",
-                            "priority": 9,
-                            "link": null
-                        },
-                        "single_use": false,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
-                    "longitude": 100.291111,
-                    "latitude": 40.958056,
-                    "timezone_name": "Asia/Shanghai",
-                    "total_launch_count": 272,
-                    "total_landing_count": 2
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7172,
-            "location_launch_attempt_count": 273,
-            "pad_launch_attempt_count": 65,
-            "agency_launch_attempt_count": 23,
-            "orbital_launch_attempt_count_year": 323,
-            "location_launch_attempt_count_year": 34,
-            "pad_launch_attempt_count_year": 10,
-            "agency_launch_attempt_count_year": 7
+          "moon": "Cordélia",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/cordelia"
         },
         {
-            "id": "63ddb2d1-8369-4681-8a50-e95819150382",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/63ddb2d1-8369-4681-8a50-e95819150382/",
-            "name": "Falcon 9 Block 5 | CSG-3",
-            "response_mode": "normal",
-            "slug": "falcon-9-block-5-csg-3",
-            "launch_designator": null,
-            "status": {
-                "id": 1,
-                "name": "Go for Launch",
-                "abbrev": "Go",
-                "description": "Current T-0 confirmed by official or reliable sources."
-            },
-            "last_updated": "2025-12-19T19:41:22Z",
-            "net": "2025-12-28T02:08:00Z",
-            "net_precision": {
-                "id": 1,
-                "name": "Minute",
-                "abbrev": "MIN",
-                "description": "The T-0 is accurate to the minute."
-            },
-            "window_end": "2025-12-28T02:08:00Z",
-            "window_start": "2025-12-28T02:08:00Z",
-            "image": {
-                "id": 1736,
-                "name": "[AUTO] Falcon 9 - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                "credit": null,
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": true,
-                "variants": []
-            },
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 121,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-                "name": "SpaceX",
-                "abbrev": "SpX",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                }
-            },
-            "rocket": {
-                "id": 7470,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 164,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/164/",
-                    "name": "Falcon 9",
-                    "families": [
-                        {
-                            "response_mode": "list",
-                            "id": 1,
-                            "name": "Falcon"
-                        },
-                        {
-                            "response_mode": "list",
-                            "id": 176,
-                            "name": "Falcon 9"
-                        }
-                    ],
-                    "full_name": "Falcon 9 Block 5",
-                    "variant": "Block 5"
-                }
-            },
-            "mission": {
-                "id": 5871,
-                "name": "CSG-3",
-                "type": "Earth Science",
-                "description": "CSG-3 is an Earth observation satellite for the Italian Space Agency, part of a reconnaissance constellation using synthetic aperture radars operating in the X-band.",
-                "image": null,
-                "orbit": {
-                    "id": 17,
-                    "name": "Sun-Synchronous Orbit",
-                    "abbrev": "SSO",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 16,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/16/",
-                "active": true,
-                "agencies": [],
-                "name": "Space Launch Complex 4E",
-                "image": {
-                    "id": 1342,
-                    "name": "Falcon 9 Block 5 | SARah 2 & 3 from SLC-4E",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20231223073520.jpeg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192449.jpeg",
-                    "credit": "SpaceX",
-                    "license": {
-                        "id": 5,
-                        "name": "CC BY-NC 2.0",
-                        "priority": 1,
-                        "link": "https://creativecommons.org/licenses/by-nc/2.0/"
-                    },
-                    "single_use": false,
-                    "variants": []
-                },
-                "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
-                "info_url": null,
-                "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
-                "map_url": "https://www.google.com/maps?q=34.632,-120.611",
-                "latitude": 34.632,
-                "longitude": -120.611,
-                "country": {
-                    "id": 2,
-                    "name": "United States of America",
-                    "alpha_2_code": "US",
-                    "alpha_3_code": "USA",
-                    "nationality_name": "American",
-                    "nationality_name_composed": "Americano"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
-                "total_launch_count": 238,
-                "orbital_launch_attempt_count": 238,
-                "fastest_turnaround": "P2DT10H22M59S",
-                "location": {
-                    "response_mode": "normal",
-                    "id": 11,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/11/",
-                    "name": "Vandenberg SFB, CA, USA",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 2,
-                        "name": "United States of America",
-                        "alpha_2_code": "US",
-                        "alpha_3_code": "USA",
-                        "nationality_name": "American",
-                        "nationality_name_composed": "Americano"
-                    },
-                    "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
-                    "image": {
-                        "id": 2226,
-                        "name": "Vandenberg SFB imaged by Sentinel-2",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vandenberg_sfb__image_20240920082910.jpeg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vandenberg_sfb__image_thumbnail_20240920082910.jpeg",
-                        "credit": "Contains modified Copernicus Sentinel data 2020",
-                        "license": {
-                            "id": 33,
-                            "name": "Copernicus Image Use Policy",
-                            "priority": 0,
-                            "link": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R1159"
-                        },
-                        "single_use": true,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
-                    "longitude": -120.52023,
-                    "latitude": 34.75133,
-                    "timezone_name": "America/Los_Angeles",
-                    "total_launch_count": 852,
-                    "total_landing_count": 30
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7172,
-            "location_launch_attempt_count": 853,
-            "pad_launch_attempt_count": 239,
-            "agency_launch_attempt_count": 620,
-            "orbital_launch_attempt_count_year": 323,
-            "location_launch_attempt_count_year": 67,
-            "pad_launch_attempt_count_year": 65,
-            "agency_launch_attempt_count_year": 171
+          "moon": "Ophélie",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/ophelia"
         },
         {
-            "id": "43cfdc96-8481-446f-ace5-ddc5ed60fb14",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/43cfdc96-8481-446f-ace5-ddc5ed60fb14/",
-            "name": "Soyuz 2.1b/Fregat-M | AIST-2T 01 & 02",
-            "response_mode": "normal",
-            "slug": "soyuz-21bfregat-m-aist-2t-01-02",
-            "launch_designator": null,
-            "status": {
-                "id": 1,
-                "name": "Go for Launch",
-                "abbrev": "Go",
-                "description": "Current T-0 confirmed by official or reliable sources."
-            },
-            "last_updated": "2025-12-18T17:26:52Z",
-            "net": "2025-12-28T13:18:05Z",
-            "net_precision": {
-                "id": 0,
-                "name": "Second",
-                "abbrev": "SEC",
-                "description": "The T-0 is accurate to the second."
-            },
-            "window_end": "2025-12-28T13:18:05Z",
-            "window_start": "2025-12-28T13:18:05Z",
-            "image": {
-                "id": 1830,
-                "name": "Soyuz 2.1b on the pad",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-                "credit": "Roscosmos",
-                "license": {
-                    "id": 14,
-                    "name": "Roscosmos Image Use Policy",
-                    "priority": 3,
-                    "link": "https://www.roscosmos.ru/22650/"
-                },
-                "single_use": false,
-                "variants": []
-            },
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 63,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
-                "name": "Russian Federal Space Agency (ROSCOSMOS)",
-                "abbrev": "RFSA",
-                "type": {
-                    "id": 1,
-                    "name": "Government"
-                }
-            },
-            "rocket": {
-                "id": 8364,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 134,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/134/",
-                    "name": "Soyuz 2.1b/Fregat-M",
-                    "families": [
-                        {
-                            "response_mode": "list",
-                            "id": 147,
-                            "name": "Soyuz"
-                        },
-                        {
-                            "response_mode": "list",
-                            "id": 190,
-                            "name": "Soyuz 2"
-                        }
-                    ],
-                    "full_name": "Soyuz 2.1b Fregat-M",
-                    "variant": "Fregat-M"
-                }
-            },
-            "mission": {
-                "id": 6945,
-                "name": "AIST-2T 01 & 02",
-                "type": "Earth Science",
-                "description": "A pair of Russian optical Earth observation satellites built by the Progress Rocket Space Centre for obtaining stereo images of the Earth's surface, with maximum resolution of 1.2 m in panchromatic mode and a swath width of 32 km.\r\n\r\n50 small satellites will also be launched as ride-share payloads, including 3 from Iran.",
-                "image": null,
-                "orbit": {
-                    "id": 17,
-                    "name": "Sun-Synchronous Orbit",
-                    "abbrev": "SSO",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 83,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/83/",
-                "active": true,
-                "agencies": [
-                    {
-                        "response_mode": "normal",
-                        "id": 63,
-                        "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
-                        "name": "Russian Federal Space Agency (ROSCOSMOS)",
-                        "abbrev": "RFSA",
-                        "type": {
-                            "id": 1,
-                            "name": "Government"
-                        },
-                        "featured": true,
-                        "country": [
-                            {
-                                "id": 5,
-                                "name": "Russia",
-                                "alpha_2_code": "RU",
-                                "alpha_3_code": "RUS",
-                                "nationality_name": "Russian",
-                                "nationality_name_composed": "Russo"
-                            }
-                        ],
-                        "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
-                        "administrator": "Administrator: Yuri Borisov",
-                        "founding_year": 1992,
-                        "launchers": "Soyuz",
-                        "spacecraft": "Soyuz",
-                        "parent": null,
-                        "image": {
-                            "id": 25,
-                            "name": "[AUTO] Russian Federal Space Agency (ROSCOSMOS) - image",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184652.jpeg",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "logo": {
-                            "id": 177,
-                            "name": "[AUTO] Russian Federal Space Agency (ROSCOSMOS) - logo",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185118.png",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "social_logo": {
-                            "id": 89,
-                            "name": "[AUTO] Russian Federal Space Agency (ROSCOSMOS) - social_logo",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184841.jpeg",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        }
-                    }
-                ],
-                "name": "Cosmodrome Site 1S",
-                "image": {
-                    "id": 1297,
-                    "name": "Soyuz 2.1b/Fregat-M liftoff from site 1S (Meteor-M No.2-4 & others)",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1b_image_20240229134932.jpg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192322.jpeg",
-                    "credit": "Roscosmos",
-                    "license": {
-                        "id": 14,
-                        "name": "Roscosmos Image Use Policy",
-                        "priority": 3,
-                        "link": "https://www.roscosmos.ru/22650/"
-                    },
-                    "single_use": false,
-                    "variants": []
-                },
-                "description": "",
-                "info_url": null,
-                "wiki_url": "https://en.wikipedia.org/wiki/Vostochny_Cosmodrome",
-                "map_url": "https://www.google.com/maps?q=51.884395,128.333932",
-                "latitude": 51.884395,
-                "longitude": 128.333932,
-                "country": {
-                    "id": 5,
-                    "name": "Russia",
-                    "alpha_2_code": "RU",
-                    "alpha_3_code": "RUS",
-                    "nationality_name": "Russian",
-                    "nationality_name_composed": "Russo"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_83_20200803143544.jpg",
-                "total_launch_count": 19,
-                "orbital_launch_attempt_count": 19,
-                "fastest_turnaround": "P24DT22H31M45S",
-                "location": {
-                    "response_mode": "normal",
-                    "id": 18,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/18/",
-                    "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 5,
-                        "name": "Russia",
-                        "alpha_2_code": "RU",
-                        "alpha_3_code": "RUS",
-                        "nationality_name": "Russian",
-                        "nationality_name_composed": "Russo"
-                    },
-                    "description": "The Vostochny Cosmodrome is a Russian spaceport above the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan. The first launch took place on 28 April 2016 at 02:01 UTC.",
-                    "image": {
-                        "id": 1297,
-                        "name": "Soyuz 2.1b/Fregat-M liftoff from site 1S (Meteor-M No.2-4 & others)",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1b_image_20240229134932.jpg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192322.jpeg",
-                        "credit": "Roscosmos",
-                        "license": {
-                            "id": 14,
-                            "name": "Roscosmos Image Use Policy",
-                            "priority": 3,
-                            "link": "https://www.roscosmos.ru/22650/"
-                        },
-                        "single_use": false,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_18_20200803142401.jpg",
-                    "longitude": 128.333932,
-                    "latitude": 51.884395,
-                    "timezone_name": "Asia/Yakutsk",
-                    "total_launch_count": 20,
-                    "total_landing_count": 0
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7173,
-            "location_launch_attempt_count": 21,
-            "pad_launch_attempt_count": 20,
-            "agency_launch_attempt_count": 338,
-            "orbital_launch_attempt_count_year": 324,
-            "location_launch_attempt_count_year": 2,
-            "pad_launch_attempt_count_year": 2,
-            "agency_launch_attempt_count_year": 9
+          "moon": "Bianca",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/bianca"
         },
         {
-            "id": "fb6d9dd6-2087-40b7-b3ca-c807b5b2be43",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/fb6d9dd6-2087-40b7-b3ca-c807b5b2be43/",
-            "name": "Long March 7A | Unknown Payload",
-            "response_mode": "normal",
-            "slug": "long-march-7a-unknown-payload",
-            "launch_designator": null,
-            "status": {
-                "id": 8,
-                "name": "To Be Confirmed",
-                "abbrev": "TBC",
-                "description": "Awaiting official confirmation - current date is known with some certainty."
-            },
-            "last_updated": "2025-12-19T16:30:48Z",
-            "net": "2025-12-30T21:00:00Z",
-            "net_precision": {
-                "id": 2,
-                "name": "Hour",
-                "abbrev": "HR",
-                "description": "The T-0 is accurate to the hour."
-            },
-            "window_end": "2025-12-30T23:50:00Z",
-            "window_start": "2025-12-30T21:00:00Z",
-            "image": {
-                "id": 2617,
-                "name": "CZ-7A Launch (Yaogan 45)",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_thumbnail_20251206093324.jpeg",
-                "credit": "CASC",
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": false,
-                "variants": []
-            },
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 88,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/88/",
-                "name": "China Aerospace Science and Technology Corporation",
-                "abbrev": "CASC",
-                "type": {
-                    "id": 1,
-                    "name": "Government"
-                }
-            },
-            "rocket": {
-                "id": 8858,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 216,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/216/",
-                    "name": "Long March 7A",
-                    "families": [
-                        {
-                            "response_mode": "list",
-                            "id": 106,
-                            "name": "Long March"
-                        },
-                        {
-                            "response_mode": "list",
-                            "id": 114,
-                            "name": "Long March 7"
-                        }
-                    ],
-                    "full_name": "Long March 7A",
-                    "variant": "A"
-                }
-            },
-            "mission": {
-                "id": 7449,
-                "name": "Unknown Payload",
-                "type": "Unknown",
-                "description": "Details TBD.",
-                "image": null,
-                "orbit": {
-                    "id": 25,
-                    "name": "Unknown",
-                    "abbrev": "N/A",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 176,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/176/",
-                "active": true,
-                "agencies": [],
-                "name": "201",
-                "image": {
-                    "id": 2019,
-                    "name": "CZ-8 liftoff from pad 201 (Queqiao-2)",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_20240320175819.jpeg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_thumbnail_20240320175820.jpeg",
-                    "credit": "秦英健/Qin Yingjian",
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": false,
-                    "variants": []
-                },
-                "description": "",
-                "info_url": null,
-                "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
-                "map_url": "https://www.google.com/maps?q=19.618452,110.955356",
-                "latitude": 19.618452,
-                "longitude": 110.955356,
-                "country": {
-                    "id": 6,
-                    "name": "China",
-                    "alpha_2_code": "CN",
-                    "alpha_3_code": "CHN",
-                    "nationality_name": "Chinese",
-                    "nationality_name_composed": "Sino"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_176_20200803143412.jpg",
-                "total_launch_count": 27,
-                "orbital_launch_attempt_count": 27,
-                "fastest_turnaround": "P27DT8H33M",
-                "location": {
-                    "response_mode": "normal",
-                    "id": 8,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/8/",
-                    "name": "Wenchang Space Launch Site, People's Republic of China",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 6,
-                        "name": "China",
-                        "alpha_2_code": "CN",
-                        "alpha_3_code": "CHN",
-                        "nationality_name": "Chinese",
-                        "nationality_name_composed": "Sino"
-                    },
-                    "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19° north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
-                    "image": {
-                        "id": 2019,
-                        "name": "CZ-8 liftoff from pad 201 (Queqiao-2)",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_20240320175819.jpeg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_thumbnail_20240320175820.jpeg",
-                        "credit": "秦英健/Qin Yingjian",
-                        "license": {
-                            "id": 1,
-                            "name": "Unknown",
-                            "priority": 9,
-                            "link": null
-                        },
-                        "single_use": false,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
-                    "longitude": 110.951133,
-                    "latitude": 19.614492,
-                    "timezone_name": "Asia/Shanghai",
-                    "total_launch_count": 53,
-                    "total_landing_count": 0
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7174,
-            "location_launch_attempt_count": 55,
-            "pad_launch_attempt_count": 28,
-            "agency_launch_attempt_count": 569,
-            "orbital_launch_attempt_count_year": 325,
-            "location_launch_attempt_count_year": 21,
-            "pad_launch_attempt_count_year": 8,
-            "agency_launch_attempt_count_year": 68
+          "moon": "Cressida",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/cressida"
         },
         {
-            "id": "e3b45caa-2ccc-4937-931b-780edbe58db9",
-            "url": "https://ll.thespacedevs.com/2.3.0/launches/e3b45caa-2ccc-4937-931b-780edbe58db9/",
-            "name": "Kinetica 2 | Demo Flight",
-            "response_mode": "normal",
-            "slug": "kinetica-2-demo-flight",
-            "launch_designator": null,
-            "status": {
-                "id": 2,
-                "name": "To Be Determined",
-                "abbrev": "TBD",
-                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
-            },
-            "last_updated": "2025-12-01T16:44:44Z",
-            "net": "2025-12-31T00:00:00Z",
-            "net_precision": {
-                "id": 14,
-                "name": "Year",
-                "abbrev": "Y",
-                "description": "The T-0 is expected in the given year."
-            },
-            "window_end": "2025-12-31T00:00:00Z",
-            "window_start": "2025-12-31T00:00:00Z",
-            "image": null,
-            "infographic": null,
-            "probability": null,
-            "weather_concerns": null,
-            "failreason": "",
-            "hashtag": null,
-            "launch_service_provider": {
-                "response_mode": "list",
-                "id": 1040,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/1040/",
-                "name": "CAS Space",
-                "abbrev": "CAS",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                }
-            },
-            "rocket": {
-                "id": 8823,
-                "configuration": {
-                    "response_mode": "list",
-                    "id": 541,
-                    "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/541/",
-                    "name": "Kinetica 2",
-                    "families": [],
-                    "full_name": "Kinetica 2",
-                    "variant": ""
-                }
-            },
-            "mission": {
-                "id": 7414,
-                "name": "Demo Flight",
-                "type": "Test Flight",
-                "description": "First test launch of CAS Space’s Kinetica-2 rocket.",
-                "image": null,
-                "orbit": {
-                    "id": 25,
-                    "name": "Unknown",
-                    "abbrev": "N/A",
-                    "celestial_body": {
-                        "response_mode": "list",
-                        "id": 1,
-                        "name": "Earth"
-                    }
-                },
-                "agencies": [],
-                "info_urls": [],
-                "vid_urls": []
-            },
-            "pad": {
-                "id": 244,
-                "url": "https://ll.thespacedevs.com/2.3.0/pads/244/",
-                "active": true,
-                "agencies": [
-                    {
-                        "response_mode": "normal",
-                        "id": 1040,
-                        "url": "https://ll.thespacedevs.com/2.3.0/agencies/1040/",
-                        "name": "CAS Space",
-                        "abbrev": "CAS",
-                        "type": {
-                            "id": 3,
-                            "name": "Commercial"
-                        },
-                        "featured": false,
-                        "country": [
-                            {
-                                "id": 6,
-                                "name": "China",
-                                "alpha_2_code": "CN",
-                                "alpha_3_code": "CHN",
-                                "nationality_name": "Chinese",
-                                "nationality_name_composed": "Sino"
-                            }
-                        ],
-                        "description": "CAS Space is a spin-off company from the Chinese Academy of Sciences (CAS) that is operating and plans to operate various launch vehicles of the Zhongke series.",
-                        "administrator": null,
-                        "founding_year": 2018,
-                        "launchers": "Zhongke",
-                        "spacecraft": "",
-                        "parent": null,
-                        "image": null,
-                        "logo": {
-                            "id": 122,
-                            "name": "[AUTO] CAS Space - logo",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_logo_20220727081352.png",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184930.png",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "social_logo": {
-                            "id": 48,
-                            "name": "[AUTO] CAS Space - social_logo",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_nation_20230604193435.png",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184743.png",
-                            "credit": null,
-                            "license": {
-                                "id": 1,
-                                "name": "Unknown",
-                                "priority": 9,
-                                "link": null
-                            },
-                            "single_use": true,
-                            "variants": []
-                        }
-                    }
-                ],
-                "name": "Launch Area 140",
-                "image": null,
-                "description": "",
-                "info_url": null,
-                "wiki_url": "https://en.wikipedia.org/wiki/CAS_Space#Kinetica_2,_and_2H",
-                "map_url": "https://www.google.com/maps?q=40.81748,100.21939",
-                "latitude": 40.81748,
-                "longitude": 100.21939,
-                "country": {
-                    "id": 6,
-                    "name": "China",
-                    "alpha_2_code": "CN",
-                    "alpha_3_code": "CHN",
-                    "nationality_name": "Chinese",
-                    "nationality_name_composed": "Sino"
-                },
-                "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_launch_area_140_20251128222956.jpg",
-                "total_launch_count": 0,
-                "orbital_launch_attempt_count": 0,
-                "fastest_turnaround": null,
-                "location": {
-                    "response_mode": "normal",
-                    "id": 17,
-                    "url": "https://ll.thespacedevs.com/2.3.0/locations/17/",
-                    "name": "Jiuquan Satellite Launch Center, People's Republic of China",
-                    "celestial_body": {
-                        "response_mode": "normal",
-                        "id": 1,
-                        "name": "Earth",
-                        "type": {
-                            "id": 1,
-                            "name": "Planet"
-                        },
-                        "diameter": 12742000.0,
-                        "mass": 5.972168e+24,
-                        "gravity": 9.80655,
-                        "length_of_day": "1 00:00:00",
-                        "atmosphere": true,
-                        "image": {
-                            "id": 2040,
-                            "name": "Earth (Apollo 17)",
-                            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_20240402194304.jpeg",
-                            "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/earth_2528apol_image_thumbnail_20240402194305.jpeg",
-                            "credit": "NASA",
-                            "license": {
-                                "id": 4,
-                                "name": "NASA Image and Media Guidelines",
-                                "priority": 0,
-                                "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                            },
-                            "single_use": true,
-                            "variants": []
-                        },
-                        "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
-                        "wiki_url": "https://en.wikipedia.org/wiki/Earth",
-                        "total_attempted_launches": 7384,
-                        "successful_launches": 6834,
-                        "failed_launches": 550,
-                        "total_attempted_landings": 1243,
-                        "successful_landings": 1196,
-                        "failed_landings": 47
-                    },
-                    "active": true,
-                    "country": {
-                        "id": 6,
-                        "name": "China",
-                        "alpha_2_code": "CN",
-                        "alpha_3_code": "CHN",
-                        "nationality_name": "Chinese",
-                        "nationality_name_composed": "Sino"
-                    },
-                    "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
-                    "image": {
-                        "id": 1374,
-                        "name": "Long March 2F/G liftoff (Shenzhou 16)",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20240101085213.jpeg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192548.jpeg",
-                        "credit": "CMS",
-                        "license": {
-                            "id": 1,
-                            "name": "Unknown",
-                            "priority": 9,
-                            "link": null
-                        },
-                        "single_use": false,
-                        "variants": []
-                    },
-                    "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
-                    "longitude": 100.291111,
-                    "latitude": 40.958056,
-                    "timezone_name": "Asia/Shanghai",
-                    "total_launch_count": 272,
-                    "total_landing_count": 2
-                }
-            },
-            "webcast_live": false,
-            "program": [],
-            "orbital_launch_attempt_count": 7177,
-            "location_launch_attempt_count": 275,
-            "pad_launch_attempt_count": 1,
-            "agency_launch_attempt_count": 12,
-            "orbital_launch_attempt_count_year": 328,
-            "location_launch_attempt_count_year": 36,
-            "pad_launch_attempt_count_year": 1,
-            "agency_launch_attempt_count_year": 6
+          "moon": "Desdémone",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/desdemona"
+        },
+        {
+          "moon": "Juliette",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/juliet"
+        },
+        {
+          "moon": "Portia",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/portia"
+        },
+        {
+          "moon": "Rosalinde",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/rosalind"
+        },
+        {
+          "moon": "Belinda",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/belinda"
+        },
+        {
+          "moon": "Puck",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/puck"
+        },
+        {
+          "moon": "Caliban",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/caliban"
+        },
+        {
+          "moon": "Sycorax",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/sycorax"
+        },
+        {
+          "moon": "Prospero",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/prospero"
+        },
+        {
+          "moon": "Setebos",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/setebos"
+        },
+        {
+          "moon": "Stephano",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/stephano"
+        },
+        {
+          "moon": "Trinculo",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/trinculo"
+        },
+        {
+          "moon": "Francisco",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/francisco"
+        },
+        {
+          "moon": "Margaret",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/margaret"
+        },
+        {
+          "moon": "Ferdinand",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/ferdinand"
+        },
+        {
+          "moon": "Perdita",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/perdita"
+        },
+        {
+          "moon": "Mab",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/mab"
+        },
+        {
+          "moon": "Cupid",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/cupid"
+        },
+        {
+          "moon": "S/2023 U 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023u1"
+        },
+        {
+          "moon": "S/2025 U 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2025u1"
         }
-    ]
+      ],
+      "semimajorAxis": 2870658186,
+      "perihelion": 2734998229,
+      "aphelion": 3006318143,
+      "eccentricity": 0.0457,
+      "inclination": 0.772,
+      "mass": {
+        "massValue": 8.68127,
+        "massExponent": 25
+      },
+      "vol": {
+        "volValue": 6.833,
+        "volExponent": 13
+      },
+      "density": 1.27,
+      "gravity": 8.87,
+      "escape": 21380,
+      "meanRadius": 25362,
+      "equaRadius": 25559,
+      "polarRadius": 24973,
+      "flattening": 0.02293,
+      "dimension": "",
+      "sideralOrbit": 30685.4,
+      "sideralRotation": -17.24,
+      "aroundPlanet": null,
+      "discoveredBy": "William Herschel",
+      "discoveryDate": "13/03/1781",
+      "alternativeName": "",
+      "axialTilt": 97.77,
+      "avgTemp": 76,
+      "mainAnomaly": 142.2386,
+      "argPeriapsis": 98.862,
+      "longAscNode": 73.967,
+      "bodyType": "Planet",
+      "rel": "https://api.le-systeme-solaire.net/rest/bodies/uranus",
+      "image": "https://res.cloudinary.com/dciecvd6r/image/upload/v1766291788/uranus_eonadx.png",
+      "description": "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is unique in that it rotates on its side.",
+      "type": "Ice Giant"
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "englishName": "Neptune",
+      "isPlanet": true,
+      "moons": [
+        {
+          "moon": "Triton",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/triton"
+        },
+        {
+          "moon": "Néreïde",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/nereide"
+        },
+        {
+          "moon": "Naïade",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/naiade"
+        },
+        {
+          "moon": "Thalassa",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/thalassa"
+        },
+        {
+          "moon": "Despina",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/despina"
+        },
+        {
+          "moon": "Galatée",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/galatee"
+        },
+        {
+          "moon": "Larissa",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/larissa"
+        },
+        {
+          "moon": "Protée",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/protee"
+        },
+        {
+          "moon": "Halimède",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/halimede"
+        },
+        {
+          "moon": "Psamathée",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/psamathee"
+        },
+        {
+          "moon": "Sao",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/sao"
+        },
+        {
+          "moon": "Laomédie",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/laomedie"
+        },
+        {
+          "moon": "Néso",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/neso"
+        },
+        {
+          "moon": "Hippocampe",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/hippocampe"
+        },
+        {
+          "moon": "S/2021 N 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2021n1"
+        },
+        {
+          "moon": "S/2002 N 5",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2002n5"
+        }
+      ],
+      "semimajorAxis": 4498396441,
+      "perihelion": 4459753056,
+      "aphelion": 4537039826,
+      "eccentricity": 0.0113,
+      "inclination": 1.769,
+      "mass": {
+        "massValue": 1.02413,
+        "massExponent": 26
+      },
+      "vol": {
+        "volValue": 6.254,
+        "volExponent": 13
+      },
+      "density": 1.638,
+      "gravity": 11.15,
+      "escape": 23560,
+      "meanRadius": 24622,
+      "equaRadius": 24764,
+      "polarRadius": 24341,
+      "flattening": 0.01708,
+      "dimension": "",
+      "sideralOrbit": 60189,
+      "sideralRotation": 16.11,
+      "aroundPlanet": null,
+      "discoveredBy": "Urbain Le Verrier, John Couch Adams, Johann Galle",
+      "discoveryDate": "23/09/1846",
+      "alternativeName": "",
+      "axialTilt": 28.3,
+      "avgTemp": 55,
+      "mainAnomaly": 256.228,
+      "argPeriapsis": 256.932,
+      "longAscNode": 131.823,
+      "bodyType": "Planet",
+      "rel": "https://api.le-systeme-solaire.net/rest/bodies/neptune",
+      "image": "https://res.cloudinary.com/dciecvd6r/image/upload/v1766291789/neptune_vbdlwo.png",
+      "description": "Neptune is the eighth and farthest known planet from the Sun in the Solar System. It is the fourth-largest planet by diameter and the third-most-massive planet.",
+      "type": "Ice Giant"
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "englishName": "Jupiter",
+      "isPlanet": true,
+      "moons": [
+        {
+          "moon": "Io",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/io"
+        },
+        {
+          "moon": "Europe",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/europe"
+        },
+        {
+          "moon": "Ganymède",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/ganymede"
+        },
+        {
+          "moon": "Callisto",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/callisto"
+        },
+        {
+          "moon": "Amalthée",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/amalthee"
+        },
+        {
+          "moon": "Himalia",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/himalia"
+        },
+        {
+          "moon": "Élara",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/elara"
+        },
+        {
+          "moon": "Pasiphaé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/pasiphae"
+        },
+        {
+          "moon": "Sinopé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/sinope"
+        },
+        {
+          "moon": "Lysithéa",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/lysithea"
+        },
+        {
+          "moon": "Carmé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/carme"
+        },
+        {
+          "moon": "Ananké",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/ananke"
+        },
+        {
+          "moon": "Léda",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/leda"
+        },
+        {
+          "moon": "Thébé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/thebe"
+        },
+        {
+          "moon": "Adrastée",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/adrastee"
+        },
+        {
+          "moon": "Métis",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/metis"
+        },
+        {
+          "moon": "Callirrhoé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/callirrhoe"
+        },
+        {
+          "moon": "Thémisto",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/themisto"
+        },
+        {
+          "moon": "Mégaclité",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/megaclite"
+        },
+        {
+          "moon": "Taygété",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/taygete"
+        },
+        {
+          "moon": "Chaldéné",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/chaldene"
+        },
+        {
+          "moon": "Harpalyké",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/harpalyke"
+        },
+        {
+          "moon": "Kalyké",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/kalyke"
+        },
+        {
+          "moon": "Iocasté",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/iocaste"
+        },
+        {
+          "moon": "Erinomé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/erinome"
+        },
+        {
+          "moon": "Isonoé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/isonoe"
+        },
+        {
+          "moon": "Praxidyké",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/praxidike"
+        },
+        {
+          "moon": "Autonoé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/autonoe"
+        },
+        {
+          "moon": "Thyoné",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/thyone"
+        },
+        {
+          "moon": "Hermippé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/hermippe"
+        },
+        {
+          "moon": "Aitné",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/aitne"
+        },
+        {
+          "moon": "Eurydomé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/eurydome"
+        },
+        {
+          "moon": "Euanthé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/euanthe"
+        },
+        {
+          "moon": "Euporie",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/euporie"
+        },
+        {
+          "moon": "Orthosie",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/orthosie"
+        },
+        {
+          "moon": "Spondé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/sponde"
+        },
+        {
+          "moon": "Calé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/cale"
+        },
+        {
+          "moon": "Pasithée",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/pasithee"
+        },
+        {
+          "moon": "Hégémone",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/hegemone"
+        },
+        {
+          "moon": "Mnémé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/mneme"
+        },
+        {
+          "moon": "Aoedé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/aoede"
+        },
+        {
+          "moon": "Thelxinoé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/thelxinoe"
+        },
+        {
+          "moon": "Arché",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/arche"
+        },
+        {
+          "moon": "Callichore",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/callichore"
+        },
+        {
+          "moon": "Hélicé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/helice"
+        },
+        {
+          "moon": "Carpo",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/carpo"
+        },
+        {
+          "moon": "Eukéladé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/eukelade"
+        },
+        {
+          "moon": "Cyllène",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/cyllene"
+        },
+        {
+          "moon": "Coré",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/core"
+        },
+        {
+          "moon": "Hersé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/herse"
+        },
+        {
+          "moon": "S/2003 J 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j2"
+        },
+        {
+          "moon": "Euphémé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/eupheme"
+        },
+        {
+          "moon": "S/2003 J 4",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j4"
+        },
+        {
+          "moon": "Eiréné",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/eirene"
+        },
+        {
+          "moon": "S/2003 J 9",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j9"
+        },
+        {
+          "moon": "S/2003 J 10",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j10"
+        },
+        {
+          "moon": "S/2003 J 12",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j12"
+        },
+        {
+          "moon": "Philophrosyne",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/philophrosyne"
+        },
+        {
+          "moon": "S/2003 J 16",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j16"
+        },
+        {
+          "moon": "S/2003 J 18",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j18"
+        },
+        {
+          "moon": "S/2003 J 19",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j19"
+        },
+        {
+          "moon": "S/2003 J 23",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j23"
+        },
+        {
+          "moon": "Dia",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/dia"
+        },
+        {
+          "moon": "S/2010 J 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2010j1"
+        },
+        {
+          "moon": "S/2010 J 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2010j2"
+        },
+        {
+          "moon": "S/2011 J 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2011j1"
+        },
+        {
+          "moon": "S/2011 J 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2011j2"
+        },
+        {
+          "moon": "S/2017 J 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j1"
+        },
+        {
+          "moon": "S/2016 J 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2016j1"
+        },
+        {
+          "moon": "Valétudo",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/valetudo"
+        },
+        {
+          "moon": "S/2017 J 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j2"
+        },
+        {
+          "moon": "S/2017 J 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j3"
+        },
+        {
+          "moon": "Pandia",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/pandia"
+        },
+        {
+          "moon": "S/2017 J 5",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j5"
+        },
+        {
+          "moon": "S/2017 J 6",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j6"
+        },
+        {
+          "moon": "S/2017 J 7",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j7"
+        },
+        {
+          "moon": "S/2017 J 8",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j8"
+        },
+        {
+          "moon": "S/2017 J 9",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j9"
+        },
+        {
+          "moon": "Ersa",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/ersa"
+        },
+        {
+          "moon": "S/2003 J 24",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2003j24"
+        },
+        {
+          "moon": "S/2011 J 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2011j3"
+        },
+        {
+          "moon": "S/2016 J 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2016j3"
+        },
+        {
+          "moon": "S/2016 J 4",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2016j4"
+        },
+        {
+          "moon": "S/2018 J 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2018j2"
+        },
+        {
+          "moon": "S/2018 J 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2018j3"
+        },
+        {
+          "moon": "S/2018 J 4",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2018j4"
+        },
+        {
+          "moon": "S/2021 J 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2021j1"
+        },
+        {
+          "moon": "S/2021 J 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2021j2"
+        },
+        {
+          "moon": "S/2021 J 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2021j3"
+        },
+        {
+          "moon": "S/2021 J 4",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2021j4"
+        },
+        {
+          "moon": "S/2021 J 5",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2021j5"
+        },
+        {
+          "moon": "S/2021 J 6",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2021j6"
+        },
+        {
+          "moon": "S/2022 J 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2022j1"
+        },
+        {
+          "moon": "S/2022 J 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2022j2"
+        },
+        {
+          "moon": "S/2022 J 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2022j3"
+        },
+        {
+          "moon": "S/2017 J 11",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j11"
+        },
+        {
+          "moon": "S/2017 J 10",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2017j10"
+        }
+      ],
+      "semimajorAxis": 778340821,
+      "perihelion": 740379835,
+      "aphelion": 816620000,
+      "eccentricity": 0.0489,
+      "inclination": 1.304,
+      "mass": {
+        "massValue": 1.89819,
+        "massExponent": 27
+      },
+      "vol": {
+        "volValue": 1.43128,
+        "volExponent": 15
+      },
+      "density": 1.3262,
+      "gravity": 24.79,
+      "escape": 60200,
+      "meanRadius": 69911,
+      "equaRadius": 71492,
+      "polarRadius": 66854,
+      "flattening": 0.06487,
+      "dimension": "",
+      "sideralOrbit": 4332.589,
+      "sideralRotation": 9.925,
+      "aroundPlanet": null,
+      "discoveredBy": "",
+      "discoveryDate": "",
+      "alternativeName": "",
+      "axialTilt": 3.12,
+      "avgTemp": 165,
+      "mainAnomaly": 20.02,
+      "argPeriapsis": 273.442,
+      "longAscNode": 100.398,
+      "bodyType": "Planet",
+      "rel": "https://api.le-systeme-solaire.net/rest/bodies/jupiter",
+      "image": "https://res.cloudinary.com/dciecvd6r/image/upload/v1766291788/jupiter_tlpht5.png",
+      "description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets combined.",
+      "type": "Gas Giant"
+    },
+    {
+      "id": "mars",
+      "name": "Mars",
+      "englishName": "Mars",
+      "isPlanet": true,
+      "moons": [
+        {
+          "moon": "Phobos",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/phobos"
+        },
+        {
+          "moon": "Deïmos",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/deimos"
+        }
+      ],
+      "semimajorAxis": 227939200,
+      "perihelion": 206700000,
+      "aphelion": 249200000,
+      "eccentricity": 0.0935,
+      "inclination": 1.85,
+      "mass": {
+        "massValue": 6.41712,
+        "massExponent": 23
+      },
+      "vol": {
+        "volValue": 1.6318,
+        "volExponent": 11
+      },
+      "density": 3.9341,
+      "gravity": 3.71,
+      "escape": 5030,
+      "meanRadius": 3389.5,
+      "equaRadius": 3396.19,
+      "polarRadius": 3376.2,
+      "flattening": 0.00589,
+      "dimension": "",
+      "sideralOrbit": 686.98,
+      "sideralRotation": 24.6229,
+      "aroundPlanet": null,
+      "discoveredBy": "",
+      "discoveryDate": "",
+      "alternativeName": "",
+      "axialTilt": 25.19,
+      "avgTemp": 210,
+      "mainAnomaly": 19.412,
+      "argPeriapsis": 286.231,
+      "longAscNode": 49.667,
+      "bodyType": "Planet",
+      "rel": "https://api.le-systeme-solaire.net/rest/bodies/mars",
+      "image": "https://res.cloudinary.com/dciecvd6r/image/upload/v1766291787/mars_vjbuvh.png",
+      "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System. Named after the Roman god of war, it is often referred to as the \"Red Planet\" due to its reddish appearance.",
+      "type": "Terrestrial"
+    },
+    {
+      "id": "mercure",
+      "name": "Mercure",
+      "englishName": "Mercury",
+      "isPlanet": true,
+      "moons": null,
+      "semimajorAxis": 57909050,
+      "perihelion": 46001200,
+      "aphelion": 69816900,
+      "eccentricity": 0.2056,
+      "inclination": 7,
+      "mass": {
+        "massValue": 3.30114,
+        "massExponent": 23
+      },
+      "vol": {
+        "volValue": 6.083,
+        "volExponent": 10
+      },
+      "density": 5.4291,
+      "gravity": 3.7,
+      "escape": 4250,
+      "meanRadius": 2439.4,
+      "equaRadius": 2440.53,
+      "polarRadius": 2439.7,
+      "flattening": 0,
+      "dimension": "",
+      "sideralOrbit": 87.969,
+      "sideralRotation": 1407.6,
+      "aroundPlanet": null,
+      "discoveredBy": "",
+      "discoveryDate": "",
+      "alternativeName": "",
+      "axialTilt": 0.0352,
+      "avgTemp": 0,
+      "mainAnomaly": 174.796,
+      "argPeriapsis": 29.022,
+      "longAscNode": 48.378,
+      "bodyType": "Planet",
+      "rel": "https://api.le-systeme-solaire.net/rest/bodies/mercure",
+      "image": "https://res.cloudinary.com/dciecvd6r/image/upload/v1766291788/mercury_q1lyew.png",
+      "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System.",
+      "type": "Terrestrial"
+    },
+    {
+      "id": "saturne",
+      "name": "Saturne",
+      "englishName": "Saturn",
+      "isPlanet": true,
+      "moons": [
+        {
+          "moon": "Mimas",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/mimas"
+        },
+        {
+          "moon": "Encelade",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/encelade"
+        },
+        {
+          "moon": "Téthys",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/tethys"
+        },
+        {
+          "moon": "Dioné",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/dione"
+        },
+        {
+          "moon": "Rhéa",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/rhea"
+        },
+        {
+          "moon": "Titan",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/titan"
+        },
+        {
+          "moon": "Hypérion",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/hyperion"
+        },
+        {
+          "moon": "Japet",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/japet"
+        },
+        {
+          "moon": "Phœbé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/phoebe"
+        },
+        {
+          "moon": "Janus",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/janus"
+        },
+        {
+          "moon": "Epiméthée",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/epimethee"
+        },
+        {
+          "moon": "Hélène",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/helene"
+        },
+        {
+          "moon": "Télesto",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/telesto"
+        },
+        {
+          "moon": "Calypso",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/calypso"
+        },
+        {
+          "moon": "Atlas",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/atlas"
+        },
+        {
+          "moon": "Prométhée",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/promethee"
+        },
+        {
+          "moon": "Pandore",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/pandore"
+        },
+        {
+          "moon": "Pan",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/pan"
+        },
+        {
+          "moon": "Ymir",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/ymir"
+        },
+        {
+          "moon": "Paaliaq",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/paaliaq"
+        },
+        {
+          "moon": "Tarvos",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/tarvos"
+        },
+        {
+          "moon": "Ijiraq",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/ijiraq"
+        },
+        {
+          "moon": "Suttungr",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/suttungr"
+        },
+        {
+          "moon": "Kiviuq",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/kiviuq"
+        },
+        {
+          "moon": "Mundilfari",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/mundilfari"
+        },
+        {
+          "moon": "Albiorix",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/albiorix"
+        },
+        {
+          "moon": "Skathi",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/skathi"
+        },
+        {
+          "moon": "Erriapo",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/erriapo"
+        },
+        {
+          "moon": "Siarnaq",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/siarnaq"
+        },
+        {
+          "moon": "Thrymr",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/thrymr"
+        },
+        {
+          "moon": "Narvi",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/narvi"
+        },
+        {
+          "moon": "Méthone",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/methone"
+        },
+        {
+          "moon": "Pallène",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/pallene"
+        },
+        {
+          "moon": "Pollux",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/pollux"
+        },
+        {
+          "moon": "Daphnis",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/daphnis"
+        },
+        {
+          "moon": "Aegir",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/aegir"
+        },
+        {
+          "moon": "Bebhionn",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/bebhionn"
+        },
+        {
+          "moon": "Bergelmir",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/bergelmir"
+        },
+        {
+          "moon": "Bestla",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/bestla"
+        },
+        {
+          "moon": "Farbauti",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/farbauti"
+        },
+        {
+          "moon": "Fenrir",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/fenrir"
+        },
+        {
+          "moon": "Fornjot",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/fornjot"
+        },
+        {
+          "moon": "Hati",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/hati"
+        },
+        {
+          "moon": "Hyrrokkin",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/hyrrokkin"
+        },
+        {
+          "moon": "Kari",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/kari"
+        },
+        {
+          "moon": "Loge",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/loge"
+        },
+        {
+          "moon": "Skoll",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/skoll"
+        },
+        {
+          "moon": "Surtur",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/surtur"
+        },
+        {
+          "moon": "Anthé",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/anthe"
+        },
+        {
+          "moon": "Jarnsaxa",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/jarnsaxa"
+        },
+        {
+          "moon": "Greip",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/greip"
+        },
+        {
+          "moon": "Tarqeq",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/tarqeq"
+        },
+        {
+          "moon": "Égéon",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/egeon"
+        },
+        {
+          "moon": "S/2004 S 7",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s7"
+        },
+        {
+          "moon": "S/2004 S 12",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s12"
+        },
+        {
+          "moon": "S/2004 S 13",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s13"
+        },
+        {
+          "moon": "S/2004 S 17",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s17"
+        },
+        {
+          "moon": "S/2006 S 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s1"
+        },
+        {
+          "moon": "S/2006 S 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s3"
+        },
+        {
+          "moon": "S/2007 S 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s2"
+        },
+        {
+          "moon": "S/2007 S 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s3"
+        },
+        {
+          "moon": "S/2009 S 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2009s1"
+        },
+        {
+          "moon": "Angrboda",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/angrboda"
+        },
+        {
+          "moon": "S/2004 S 21",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s21"
+        },
+        {
+          "moon": "Gridr",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/gridr"
+        },
+        {
+          "moon": "Skrymir",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/skrymir"
+        },
+        {
+          "moon": "S/2004 S 24",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s24"
+        },
+        {
+          "moon": "Gerd",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/gerd"
+        },
+        {
+          "moon": "S/2004 S 26",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s26"
+        },
+        {
+          "moon": "Eggther",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/eggther"
+        },
+        {
+          "moon": "S/2004 S 28",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s28"
+        },
+        {
+          "moon": "S/2004 S 29",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s29"
+        },
+        {
+          "moon": "Beli",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/beli"
+        },
+        {
+          "moon": "S/2004 S 31",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s31"
+        },
+        {
+          "moon": "Gunnlod",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/gunnlod"
+        },
+        {
+          "moon": "Thiazzi",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/thiazzi"
+        },
+        {
+          "moon": "S/2004 S 34",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s34"
+        },
+        {
+          "moon": "Alvaldi",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/alvaldi"
+        },
+        {
+          "moon": "S/2004 S 36",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s36"
+        },
+        {
+          "moon": "S/2004 S 37",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s37"
+        },
+        {
+          "moon": "Geirrod",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/geirrod"
+        },
+        {
+          "moon": "S/2004 S 39",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s39"
+        },
+        {
+          "moon": "S/2004 S 41",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s41"
+        },
+        {
+          "moon": "S/2004 S 40",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s40"
+        },
+        {
+          "moon": "S/2004 S 42",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s42"
+        },
+        {
+          "moon": "S/2004 S 43",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s43"
+        },
+        {
+          "moon": "S/2004 S 44",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s44"
+        },
+        {
+          "moon": "S/2004 S 45",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s45"
+        },
+        {
+          "moon": "S/2004 S 46",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s46"
+        },
+        {
+          "moon": "S/2004 S 47",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s47"
+        },
+        {
+          "moon": "S/2004 S 48",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s48"
+        },
+        {
+          "moon": "S/2004 S 49",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s49"
+        },
+        {
+          "moon": "S/2004 S 50",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s50"
+        },
+        {
+          "moon": "S/2004 S 51",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s51"
+        },
+        {
+          "moon": "S/2004 S 52",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s52"
+        },
+        {
+          "moon": "S/2004 S 53",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s53"
+        },
+        {
+          "moon": "S/2005 S 4",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2005s4"
+        },
+        {
+          "moon": "S/2005 S 5",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2005s5"
+        },
+        {
+          "moon": "S/2006 S 10",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s10"
+        },
+        {
+          "moon": "S/2006 S 11",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s11"
+        },
+        {
+          "moon": "S/2006 S 12",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s12"
+        },
+        {
+          "moon": "S/2006 S 13",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s13"
+        },
+        {
+          "moon": "S/2006 S 14",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s14"
+        },
+        {
+          "moon": "S/2006 S 15",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s15"
+        },
+        {
+          "moon": "S/2006 S 16",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s16"
+        },
+        {
+          "moon": "S/2006 S 17",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s17"
+        },
+        {
+          "moon": "S/2006 S 18",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s18"
+        },
+        {
+          "moon": "S/2006 S 19",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s19"
+        },
+        {
+          "moon": "S/2006 S 20",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s20"
+        },
+        {
+          "moon": "S/2007 S 5",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s5"
+        },
+        {
+          "moon": "S/2007 S 6",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s6"
+        },
+        {
+          "moon": "S/2007 S 7",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s7"
+        },
+        {
+          "moon": "S/2007 S 8",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s8"
+        },
+        {
+          "moon": "S/2007 S 9",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s9"
+        },
+        {
+          "moon": "S/2019 S 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s1"
+        },
+        {
+          "moon": "S/2019 S 10",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s10"
+        },
+        {
+          "moon": "S/2019 S 11",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s11"
+        },
+        {
+          "moon": "S/2019 S 12",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s12"
+        },
+        {
+          "moon": "S/2019 S 13",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s13"
+        },
+        {
+          "moon": "S/2019 S 14",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s14"
+        },
+        {
+          "moon": "S/2019 S 15",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s15"
+        },
+        {
+          "moon": "S/2019 S 16",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s16"
+        },
+        {
+          "moon": "S/2019 S 17",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s17"
+        },
+        {
+          "moon": "S/2019 S 18",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s18"
+        },
+        {
+          "moon": "S/2019 S 19",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s19"
+        },
+        {
+          "moon": "S/2019 S 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s2"
+        },
+        {
+          "moon": "S/2019 S 20",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s20"
+        },
+        {
+          "moon": "S/2019 S 21",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s21"
+        },
+        {
+          "moon": "S/2019 S 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s3"
+        },
+        {
+          "moon": "S/2019 S 4",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s4"
+        },
+        {
+          "moon": "S/2019 S 5",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s5"
+        },
+        {
+          "moon": "S/2019 S 6",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s6"
+        },
+        {
+          "moon": "S/2019 S 7",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s7"
+        },
+        {
+          "moon": "S/2019 S 8",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s8"
+        },
+        {
+          "moon": "S/2019 S 9",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s9"
+        },
+        {
+          "moon": "S/2020 S 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s1"
+        },
+        {
+          "moon": "S/2020 S 10",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s10"
+        },
+        {
+          "moon": "S/2020 S 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s2"
+        },
+        {
+          "moon": "S/2020 S 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s3"
+        },
+        {
+          "moon": "S/2020 S 4",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s4"
+        },
+        {
+          "moon": "S/2020 S 5",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s5"
+        },
+        {
+          "moon": "S/2020 S 6",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s6"
+        },
+        {
+          "moon": "S/2020 S 7",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s7"
+        },
+        {
+          "moon": "S/2020 S 8",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s8"
+        },
+        {
+          "moon": "S/2020 S 9",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s9"
+        },
+        {
+          "moon": "S/2006 S 9",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s9"
+        },
+        {
+          "moon": "S/2019 S 22",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s22"
+        },
+        {
+          "moon": "S/2019 S 23",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s23"
+        },
+        {
+          "moon": "S/2019 S 26",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s26"
+        },
+        {
+          "moon": "S/2019 S 32",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s32"
+        },
+        {
+          "moon": "S/2019 S 35",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s35"
+        },
+        {
+          "moon": "S/2019 S 37",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s37"
+        },
+        {
+          "moon": "S/2019 S 41",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s41"
+        },
+        {
+          "moon": "S/2019 S 44",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s44"
+        },
+        {
+          "moon": "S/2020 S 11",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s11"
+        },
+        {
+          "moon": "S/2020 S 12",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s12"
+        },
+        {
+          "moon": "S/2020 S 13",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s13"
+        },
+        {
+          "moon": "S/2020 S 16",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s16"
+        },
+        {
+          "moon": "S/2020 S 17",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s17"
+        },
+        {
+          "moon": "S/2020 S 19",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s19"
+        },
+        {
+          "moon": "S/2020 S 20",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s20"
+        },
+        {
+          "moon": "S/2020 S 22",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s22"
+        },
+        {
+          "moon": "S/2020 S 23",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s23"
+        },
+        {
+          "moon": "S/2020 S 24",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s24"
+        },
+        {
+          "moon": "S/2020 S 30",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s30"
+        },
+        {
+          "moon": "S/2020 S 31",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s31"
+        },
+        {
+          "moon": "S/2020 S 33",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s33"
+        },
+        {
+          "moon": "S/2020 S 34",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s34"
+        },
+        {
+          "moon": "S/2020 S 38",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s38"
+        },
+        {
+          "moon": "S/2020 S 39",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s39"
+        },
+        {
+          "moon": "S/2020 S 41",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s41"
+        },
+        {
+          "moon": "S/2020 S 42",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s42"
+        },
+        {
+          "moon": "S/2020 S 43",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s43"
+        },
+        {
+          "moon": "S/2020 S 44",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s44"
+        },
+        {
+          "moon": "S/2023 S 1",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s1"
+        },
+        {
+          "moon": "S/2023 S 2",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s2"
+        },
+        {
+          "moon": "S/2023 S 3",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s3"
+        },
+        {
+          "moon": "S/2023 S 5",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s5"
+        },
+        {
+          "moon": "S/2023 S 6",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s6"
+        },
+        {
+          "moon": "S/2023 S 7",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s7"
+        },
+        {
+          "moon": "S/2023 S 8",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s8"
+        },
+        {
+          "moon": "S/2023 S 9",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s9"
+        },
+        {
+          "moon": "S/2023 S 10",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s10"
+        },
+        {
+          "moon": "S/2023 S 13",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s13"
+        },
+        {
+          "moon": "S/2023 S 16",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s16"
+        },
+        {
+          "moon": "S/2023 S 17",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s17"
+        },
+        {
+          "moon": "S/2023 S 18",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s18"
+        },
+        {
+          "moon": "S/2023 S 19",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s19"
+        },
+        {
+          "moon": "S/2023 S 20",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s20"
+        },
+        {
+          "moon": "S/2023 S 21",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s21"
+        },
+        {
+          "moon": "S/2023 S 22",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s22"
+        },
+        {
+          "moon": "S/2023 S 23",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s23"
+        },
+        {
+          "moon": "S/2023 S 24",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s24"
+        },
+        {
+          "moon": "S/2023 S 25",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s25"
+        },
+        {
+          "moon": "S/2023 S 27",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s27"
+        },
+        {
+          "moon": "S/2023 S 29",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s29"
+        },
+        {
+          "moon": "S/2023 S 30",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s30"
+        },
+        {
+          "moon": "S/2023 S 32",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s32"
+        },
+        {
+          "moon": "S/2023 S 33",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s33"
+        },
+        {
+          "moon": "S/2023 S 34",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s34"
+        },
+        {
+          "moon": "S/2023 S 42",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s42"
+        },
+        {
+          "moon": "S/2023 S 43",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s43"
+        },
+        {
+          "moon": "S/2023 S 45",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s45"
+        },
+        {
+          "moon": "S/2023 S 46",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s46"
+        },
+        {
+          "moon": "S/2023 S 47",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s47"
+        },
+        {
+          "moon": "S/2023 S 49",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s49"
+        },
+        {
+          "moon": "S/2023 S 50",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s50"
+        },
+        {
+          "moon": "S/2004 S 54",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s54"
+        },
+        {
+          "moon": "S/2004 S 55",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s55"
+        },
+        {
+          "moon": "S/2004 S 56",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s56"
+        },
+        {
+          "moon": "S/2004 S 57",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s57"
+        },
+        {
+          "moon": "S/2004 S 58",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s58"
+        },
+        {
+          "moon": "S/2004 S 59",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s59"
+        },
+        {
+          "moon": "S/2004 S 60",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s60"
+        },
+        {
+          "moon": "S/2004 S 61",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2004s61"
+        },
+        {
+          "moon": "S/2005 S 6",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2005s6"
+        },
+        {
+          "moon": "S/2005 S 7",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2005s7"
+        },
+        {
+          "moon": "S/2006 S 21",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s21"
+        },
+        {
+          "moon": "S/2006 S 22",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s22"
+        },
+        {
+          "moon": "S/2006 S 23",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s23"
+        },
+        {
+          "moon": "S/2006 S 24",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s24"
+        },
+        {
+          "moon": "S/2006 S 25",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s25"
+        },
+        {
+          "moon": "S/2006 S 26",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s26"
+        },
+        {
+          "moon": "S/2006 S 27",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s27"
+        },
+        {
+          "moon": "S/2006 S 28",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s28"
+        },
+        {
+          "moon": "S/2006 S 29",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2006s29"
+        },
+        {
+          "moon": "S/2007 S 10",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s10"
+        },
+        {
+          "moon": "S/2007 S 11",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2007s11"
+        },
+        {
+          "moon": "S/2019 S 24",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s24"
+        },
+        {
+          "moon": "S/2019 S 25",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s25"
+        },
+        {
+          "moon": "S/2019 S 27",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s27"
+        },
+        {
+          "moon": "S/2019 S 29",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s29"
+        },
+        {
+          "moon": "S/2019 S 31",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s31"
+        },
+        {
+          "moon": "S/2019 S 33",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s33"
+        },
+        {
+          "moon": "S/2019 S 34",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s34"
+        },
+        {
+          "moon": "S/2019 S 40",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s40"
+        },
+        {
+          "moon": "S/2019 S 42",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s42"
+        },
+        {
+          "moon": "S/2019 S 43",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s43"
+        },
+        {
+          "moon": "S/2020 S 26",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s26"
+        },
+        {
+          "moon": "S/2020 S 27",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s27"
+        },
+        {
+          "moon": "S/2019 S 28",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s28"
+        },
+        {
+          "moon": "S/2019 S 30",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s30"
+        },
+        {
+          "moon": "S/2019 S 36",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s36"
+        },
+        {
+          "moon": "S/2019 S 38",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s38"
+        },
+        {
+          "moon": "S/2019 S 39",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2019s39"
+        },
+        {
+          "moon": "S/2020 S 14",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s14"
+        },
+        {
+          "moon": "S/2020 S 15",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s15"
+        },
+        {
+          "moon": "S/2020 S 18",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s18"
+        },
+        {
+          "moon": "S/2020 S 21",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s21"
+        },
+        {
+          "moon": "S/2020 S 25",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s25"
+        },
+        {
+          "moon": "S/2020 S 28",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s28"
+        },
+        {
+          "moon": "S/2020 S 29",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s29"
+        },
+        {
+          "moon": "S/2020 S 32",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s32"
+        },
+        {
+          "moon": "S/2020 S 35",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s35"
+        },
+        {
+          "moon": "S/2020 S 36",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s36"
+        },
+        {
+          "moon": "S/2020 S 37",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s37"
+        },
+        {
+          "moon": "S/2020 S 40",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2020s40"
+        },
+        {
+          "moon": "S/2023 S 4",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s4"
+        },
+        {
+          "moon": "S/2023 S 11",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s11"
+        },
+        {
+          "moon": "S/2023 S 12",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s12"
+        },
+        {
+          "moon": "S/2023 S 14",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s14"
+        },
+        {
+          "moon": "S/2023 S 15",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s15"
+        },
+        {
+          "moon": "S/2023 S 26",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s26"
+        },
+        {
+          "moon": "S/2023 S 28",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s28"
+        },
+        {
+          "moon": "S/2023 S 31",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s31"
+        },
+        {
+          "moon": "S/2023 S 35",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s35"
+        },
+        {
+          "moon": "S/2023 S 36",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s36"
+        },
+        {
+          "moon": "S/2023 S 37",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s37"
+        },
+        {
+          "moon": "S/2023 S 38",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s38"
+        },
+        {
+          "moon": "S/2023 S 39",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s39"
+        },
+        {
+          "moon": "S/2023 S 40",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s40"
+        },
+        {
+          "moon": "S/2023 S 41",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s41"
+        },
+        {
+          "moon": "S/2023 S 44",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s44"
+        },
+        {
+          "moon": "S/2023 S 48",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/s2023s48"
+        }
+      ],
+      "semimajorAxis": 1426666422,
+      "perihelion": 1349823615,
+      "aphelion": 1503509229,
+      "eccentricity": 0.0565,
+      "inclination": 2.485,
+      "mass": {
+        "massValue": 5.68336,
+        "massExponent": 26
+      },
+      "vol": {
+        "volValue": 8.2713,
+        "volExponent": 14
+      },
+      "density": 0.6871,
+      "gravity": 10.44,
+      "escape": 36090,
+      "meanRadius": 58232,
+      "equaRadius": 60268,
+      "polarRadius": 54364,
+      "flattening": 0.09796,
+      "dimension": "",
+      "sideralOrbit": 10759.22,
+      "sideralRotation": 10.656,
+      "aroundPlanet": null,
+      "discoveredBy": "",
+      "discoveryDate": "",
+      "alternativeName": "",
+      "axialTilt": 26.73,
+      "avgTemp": 134,
+      "mainAnomaly": 317.02,
+      "argPeriapsis": 336.178,
+      "longAscNode": 113.759,
+      "bodyType": "Planet",
+      "rel": "https://api.le-systeme-solaire.net/rest/bodies/saturne",
+      "image": "https://res.cloudinary.com/dciecvd6r/image/upload/v1766291789/saturn_wr74bj.png",
+      "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System. It is a gas giant with an average radius about nine times that of Earth, and is best known for its extensive ring system.",
+      "type": "Gas Giant"
+    },
+    {
+      "id": "terre",
+      "name": "La Terre",
+      "englishName": "Earth",
+      "isPlanet": true,
+      "moons": [
+        {
+          "moon": "La Lune",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/lune"
+        }
+      ],
+      "semimajorAxis": 149598023,
+      "perihelion": 147095000,
+      "aphelion": 152100000,
+      "eccentricity": 0.0167,
+      "inclination": 0,
+      "mass": {
+        "massValue": 5.97237,
+        "massExponent": 24
+      },
+      "vol": {
+        "volValue": 1.08321,
+        "volExponent": 12
+      },
+      "density": 5.5136,
+      "gravity": 9.8,
+      "escape": 11190,
+      "meanRadius": 6371.0084,
+      "equaRadius": 6378.1366,
+      "polarRadius": 6356.8,
+      "flattening": 0.00335,
+      "dimension": "",
+      "sideralOrbit": 365.256,
+      "sideralRotation": 23.9345,
+      "aroundPlanet": null,
+      "discoveredBy": "",
+      "discoveryDate": "",
+      "alternativeName": "",
+      "axialTilt": 23.4393,
+      "avgTemp": 288,
+      "mainAnomaly": 358.617,
+      "argPeriapsis": 85.901,
+      "longAscNode": 18.272,
+      "bodyType": "Planet",
+      "rel": "https://api.le-systeme-solaire.net/rest/bodies/terre",
+      "image": "https://res.cloudinary.com/dciecvd6r/image/upload/v1766291788/earth_gyslqk.png",
+      "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water.",
+      "type": "Terrestrial"
+    },
+    {
+      "id": "venus",
+      "name": "Vénus",
+      "englishName": "Venus",
+      "isPlanet": true,
+      "moons": null,
+      "semimajorAxis": 108208475,
+      "perihelion": 107477000,
+      "aphelion": 108939000,
+      "eccentricity": 0.0067,
+      "inclination": 3.39,
+      "mass": {
+        "massValue": 4.86747,
+        "massExponent": 24
+      },
+      "vol": {
+        "volValue": 9.2843,
+        "volExponent": 11
+      },
+      "density": 5.243,
+      "gravity": 8.87,
+      "escape": 10360,
+      "meanRadius": 6051.8,
+      "equaRadius": 6051.8,
+      "polarRadius": 6051.8,
+      "flattening": 0,
+      "dimension": "",
+      "sideralOrbit": 224.701,
+      "sideralRotation": -5832.5,
+      "aroundPlanet": null,
+      "discoveredBy": "",
+      "discoveryDate": "",
+      "alternativeName": "",
+      "axialTilt": 177.36,
+      "avgTemp": 737,
+      "mainAnomaly": 50.115,
+      "argPeriapsis": 54.78,
+      "longAscNode": 76.785,
+      "bodyType": "Planet",
+      "rel": "https://api.le-systeme-solaire.net/rest/bodies/venus",
+      "image": "https://res.cloudinary.com/dciecvd6r/image/upload/v1766291788/venus_p9wayc.png",
+      "description": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the second-brightest natural object in the night sky after the Moon, Venus can cast shadows.",
+      "type": "Terrestrial"
+    }
+  ]
 }

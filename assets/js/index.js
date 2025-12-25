@@ -28,6 +28,8 @@ const dom = {
   hero_desc: document.querySelector(".hero_desc"),
   img_hero_lunch: document.querySelector(".img_hero_lunch"),
   launches_grid: document.getElementById("launches-grid"),
+  planet_card: document.querySelectorAll(".planet-card"),
+  planet_detail_image: document.querySelector("#planet-detail-image"),
 };
 // auto date
 let current_date = new Date();
@@ -70,7 +72,6 @@ async function fetchdata_space_today(api_link) {
       throw new Error("error" + data.message);
     } else {
       let response = await data.json();
-      console.log(response);
 
       return response;
     }
@@ -117,8 +118,8 @@ window.addEventListener("load", () => {
   dom.apod_date_input.value = `${yaer}-${month}-${day}`;
 
   dom.curr_date.innerHTML = dom.apod_date_input.value;
-  display_current_space_picture(`${yaer}-${month}-${day}`);
-  DisplayUpcomingLaunches();
+  // display_current_space_picture(`${yaer}-${month}-${day}`);
+  // DisplayUpcomingLaunches();
 });
 // load image by date button
 function loadByDate() {
@@ -136,7 +137,10 @@ dom.load_date_btn.addEventListener("click", () => loadByDate());
 //
 
 async function DisplayUpcomingLaunches() {
-  let data = await fetchdata_space_today(`./assets/js/data.json`);
+  let data = await fetchdata_space_today(
+    `https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=10`
+  );
+  if (!data) return;
   dom.leading_tight.innerHTML = data.results[0].name;
   dom.leading_building.innerHTML = data.results[0].launch_service_provider.name;
   dom.starship_rocket.innerHTML = data.results[0].rocket.configuration.name;
@@ -146,9 +150,83 @@ async function DisplayUpcomingLaunches() {
   dom.country.innerHTML = data.results[0].pad.country.nationality_name;
   dom.hero_desc.innerHTML = data.results[0].mission.description;
   dom.img_hero_lunch.src = `${data.results[0].image.image_url}`;
+  displayLunchesCards(data);
+}
+// display cards in lunches taps
+function displayLunchesCards(data) {
   let cartonna = "";
   for (let i = 1; i < data.results.length; i++) {
-    cartonna += ``;
+    cartonna += `<div
+              class="bg-slate-800/50 border border-slate-700 rounded-2xl overflow-hidden hover:border-blue-500/30 transition-all group cursor-pointer"
+            >
+              <div
+                class="relative h-48 bg-slate-900/50 flex items-center justify-center"
+              >
+                <img src="${data.results[i].image.image_url}" alt="">
+                
+                <div class="absolute top-3 right-3">
+                  <span
+                    class="px-3 py-1 bg-green-500/90 text-white backdrop-blur-sm rounded-full text-xs font-semibold"
+                  >
+                    Go
+                  </span>
+                </div>
+              </div>
+              <div class="p-5">
+                <div class="mb-3">
+                  <h4
+                    class="font-bold text-lg mb-2 line-clamp-2 group-hover:text-blue-400 transition-colors"
+                  >
+                    ${data.results[i].name}
+                  </h4>
+                  <p class="text-sm text-slate-400 flex items-center gap-2">
+                    <i class="fas fa-building text-xs"></i>
+                    ${data.results[i].launch_service_provider.name}
+                  </p>
+                </div>
+                <div class="space-y-2 mb-4">
+                  <div class="flex items-center gap-2 text-sm">
+                    <i class="fas fa-calendar text-slate-500 w-4"></i>
+                    <span class="text-slate-300">${returnFormayyedDate(
+                      data.results[i].window_start
+                    )}</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-sm">
+                    <i class="fas fa-clock text-slate-500 w-4"></i>
+                    <span class="text-slate-300">${returnTimeformatted(
+                      data.results[i].window_start
+                    )} UTC</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-sm">
+                    <i class="fas fa-rocket text-slate-500 w-4"></i>
+                    <span class="text-slate-300">${
+                      data.results[i].rocket.configuration.name
+                    }</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-sm">
+                    <i class="fas fa-map-marker-alt text-slate-500 w-4"></i>
+                    <span class="text-slate-300 line-clamp-1">${
+                      data.results[i].pad.location.name
+                    }</span>
+                  </div>
+                </div>
+                <div
+                  class="flex items-center gap-2 pt-4 border-t border-slate-700"
+                >
+                  <button
+                    class="flex-1 px-4 py-2 bg-slate-700 rounded-lg hover:bg-slate-600 transition-colors text-sm font-semibold"
+                  >
+                    Details
+                  </button>
+                  <button
+                    class="px-3 py-2 bg-slate-700 rounded-lg hover:bg-slate-600 transition-colors"
+                  >
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>`;
+    dom.launches_grid.innerHTML = cartonna;
   }
 }
 //formate api date**
@@ -171,4 +249,22 @@ function returnTimeformatted(parm) {
   });
   return formattedTime;
 }
-console.log(returnTimeformatted("2025-12-24T03:25:30Z"));
+let arr = [];
+dom.planet_card.forEach((planet) => {
+  planet.addEventListener("click", async () => {
+    let CurrentPlanet = planet.getAttribute("data-planet-id");
+    let solarApi = await fetchdata_space_today(`./assets/js/data.json`);
+    if (!solarApi) return;
+    else {
+      for (let i = 0; i < solarApi.bodies.length; i++) {
+        if (CurrentPlanet === solarApi.bodies[i].id) {
+          arr.length = 0;
+          arr.push(solarApi.bodies[i]);
+        }
+      }
+      let src = arr[0].image;
+
+      dom.planet_detail_image.src = `${src}`;
+    }
+  });
+});
