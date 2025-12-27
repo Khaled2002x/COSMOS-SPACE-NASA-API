@@ -225,7 +225,9 @@ function displayLunchesCards(data) {
               <div
                 class="relative h-48 bg-slate-900/50 flex items-center justify-center"
               >
-                <img src="${data.results[i].image.image_url}" alt="">
+                <img src="${
+                  data.results[i].image.image_url
+                }" class=" lunches_image " alt="">
                 
                 <div class="absolute top-3 right-3">
                   <span
