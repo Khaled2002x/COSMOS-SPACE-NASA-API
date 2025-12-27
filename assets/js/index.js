@@ -30,7 +30,53 @@ const dom = {
   launches_grid: document.getElementById("launches-grid"),
   planet_card: document.querySelectorAll(".planet-card"),
   planet_detail_image: document.querySelector("#planet-detail-image"),
+  planet_detail_description: document.querySelector(
+    "#planet-detail-description"
+  ),
+  planet_detail_name: document.getElementById("planet-detail-name"),
+  planet_distance: document.getElementById("planet-distance"),
+  planet_radius: document.getElementById("planet-radius"),
+  planet_mass: document.getElementById("planet-mass"),
+  planet_density: document.getElementById("planet-density"),
+  planet_orbital_period: document.getElementById("planet-orbital-period"),
+  planet_rotation: document.getElementById("planet-rotation"),
+  planet_moons: document.getElementById("planet-moons"),
+  planet_gravity: document.getElementById("planet-gravity"),
+  planet_discoverer: document.getElementById("planet-discoverer"),
+  planet_discovery_date: document.getElementById("planet-discovery-date"),
+  planet_body_type: document.getElementById("planet-body-type"),
+  planet_volume: document.getElementById("planet-volume"),
+  planet_facts: document.getElementById("planet-facts"),
+  planet_perihelion: document.getElementById("planet-perihelion"),
+  planet_aphelion: document.getElementById("planet-aphelion"),
+  planet_eccentricity: document.getElementById("planet-eccentricity"),
+  planet_inclination: document.getElementById("planet-inclination"),
+  planet_axial_tilt: document.getElementById("planet-axial-tilt"),
+  planet_temp: document.getElementById("planet-temp"),
+  planet_escape: document.getElementById("planet-escape"),
+  sidebar: document.getElementById("sidebar"),
+  sidebar_toggle: document.getElementById("sidebar-toggle"),
 };
+
+window.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (
+    dom.sidebar
+      .getAttribute("class")
+      .split(" , ")
+      .includes("sidebar-mobile") === false
+  ) {
+    dom.sidebar.classList.add("sidebar-mobile");
+  }
+});
+//side bar on mobile screen
+
+dom.sidebar_toggle.addEventListener("click", (e) => {
+  e.stopPropagation();
+
+  dom.sidebar.classList.remove("sidebar-mobile");
+});
+
 // auto date
 let current_date = new Date();
 let yaer = current_date.getFullYear();
@@ -118,8 +164,8 @@ window.addEventListener("load", () => {
   dom.apod_date_input.value = `${yaer}-${month}-${day}`;
 
   dom.curr_date.innerHTML = dom.apod_date_input.value;
-  // display_current_space_picture(`${yaer}-${month}-${day}`);
-  // DisplayUpcomingLaunches();
+  display_current_space_picture(`${yaer}-${month}-${day}`);
+  DisplayUpcomingLaunches();
 });
 // load image by date button
 function loadByDate() {
@@ -262,9 +308,64 @@ dom.planet_card.forEach((planet) => {
           arr.push(solarApi.bodies[i]);
         }
       }
-      let src = arr[0].image;
-
-      dom.planet_detail_image.src = `${src}`;
+      displayPlanet(arr);
     }
   });
 });
+function displayPlanet(arr) {
+  let src = arr[0];
+  let moon_length = src.moons.length;
+
+  dom.planet_detail_image.src = `${src.image}`;
+  dom.planet_detail_name.innerHTML = src.englishName;
+  dom.planet_detail_description.innerHTML = src.description;
+  dom.planet_distance.innerHTML =
+    (src.semimajorAxis / 1000000).toFixed(1) + "M km";
+  dom.planet_radius.innerHTML = src.meanRadius.toFixed(0) + " km";
+  dom.planet_mass.innerHTML =
+    src.mass.massValue.toFixed(2) + ` × 10^${src.mass.massExponent} kg`;
+  dom.planet_density.innerHTML = src.density.toFixed(2) + " g/cm³";
+  dom.planet_orbital_period.innerHTML = src.sideralOrbit.toFixed(2) + " days";
+  dom.planet_rotation.innerHTML = src.sideralRotation + " hours";
+  dom.planet_moons.innerHTML = moon_length;
+  dom.planet_gravity.innerHTML = src.gravity + " m/s²";
+  dom.planet_discoverer.innerHTML =
+    src.discoveredBy === "" ? "Known since antiquity" : src.discoveredBy;
+  dom.planet_discovery_date.innerHTML =
+    src.discoveryDate === "" ? "Ancient" : src.discoveryDate;
+  dom.planet_volume.innerHTML =
+    src.vol.volValue + " x " + ` 10 ^ ${src.vol.volExponent}  km³`;
+  dom.planet_facts.innerHTML = `<li class="flex items-start">
+                    <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
+                    <span class="text-slate-300"
+                      >Mass: ${dom.planet_mass.innerHTML}</span
+                    >
+                  </li>
+                    <li class="flex items-start">
+                    <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
+                    <span class="text-slate-300"
+                      >Surface gravity: ${dom.planet_gravity.innerHTML}</span
+                    >
+                  </li>
+                    <li class="flex items-start">
+                    <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
+                    <span class="text-slate-300"
+                      >Density: ${dom.planet_density.innerHTML}</span
+                    >
+                  </li>
+                    <li class="flex items-start">
+                    <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
+                    <span class="text-slate-300"
+                      >xial tilt: ${dom.planet_axial_tilt.innerHTML}</span
+                    >
+                  </li>
+                  `;
+  dom.planet_perihelion.innerHTML =
+    (src.perihelion / 1000000).toFixed(1) + "M km";
+  dom.planet_aphelion.innerHTML = (src.aphelion / 1000000).toFixed(1) + "M km";
+  dom.planet_eccentricity.innerHTML = src.eccentricity;
+  dom.planet_inclination.innerHTML = src.inclination + "°";
+  dom.planet_axial_tilt.innerHTML = src.axialTilt + "°";
+  dom.planet_temp.innerHTML = src.avgTemp + "C";
+  dom.planet_escape.innerHTML = (src.escape / 1000).toFixed(2) + " km/s";
+}
