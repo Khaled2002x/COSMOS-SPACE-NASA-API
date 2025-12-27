@@ -57,7 +57,7 @@ const dom = {
   sidebar: document.getElementById("sidebar"),
   sidebar_toggle: document.getElementById("sidebar-toggle"),
 };
-
+//close side bar
 window.addEventListener("click", (e) => {
   e.preventDefault();
   if (
@@ -314,7 +314,6 @@ dom.planet_card.forEach((planet) => {
 });
 function displayPlanet(arr) {
   let src = arr[0];
-  let moon_length = src.moons.length;
 
   dom.planet_detail_image.src = `${src.image}`;
   dom.planet_detail_name.innerHTML = src.englishName;
@@ -327,7 +326,7 @@ function displayPlanet(arr) {
   dom.planet_density.innerHTML = src.density.toFixed(2) + " g/cm³";
   dom.planet_orbital_period.innerHTML = src.sideralOrbit.toFixed(2) + " days";
   dom.planet_rotation.innerHTML = src.sideralRotation + " hours";
-  dom.planet_moons.innerHTML = moon_length;
+  dom.planet_moons.innerHTML = src.moons.length;
   dom.planet_gravity.innerHTML = src.gravity + " m/s²";
   dom.planet_discoverer.innerHTML =
     src.discoveredBy === "" ? "Known since antiquity" : src.discoveredBy;
