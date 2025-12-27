@@ -1,5 +1,3 @@
-// WRITE YOUR JS CODE HERE
-// apikey=rnIs5dw7lTBxZWyzLT2A6C1dSyzI8rOfdcAlvp4S
 const dom = {
   apod_image_container: document.getElementById("apod-image-container"),
   nav_link: document.querySelectorAll(".nav-link"),
@@ -56,10 +54,12 @@ const dom = {
   planet_escape: document.getElementById("planet-escape"),
   sidebar: document.getElementById("sidebar"),
   sidebar_toggle: document.getElementById("sidebar-toggle"),
+  img: document.querySelectorAll("img"),
 };
+// add loading=lazy to all image to improve performance
+dom.img.forEach((img) => img.setAttribute("loading", "lazy"));
 //close side bar
 window.addEventListener("click", (e) => {
-  e.preventDefault();
   if (
     dom.sidebar
       .getAttribute("class")
@@ -129,7 +129,24 @@ dom.apod_date_input.addEventListener("change", () => {
   console.log(dom.apod_date_input.value);
   dom.curr_date.innerHTML = dom.apod_date_input.value;
 });
+function loadspinner() {
+  return `<div id="image-container" style="position: relative; width: 300px; height: 300px;">
+ <div id="spinner" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+   <img src="spinner.gif" alt="Loading...">
+ </div>
+ <img id="image" src="" alt="Image" style="display: none; width: 100%; height: 100%;">
+</div>
+`;
+}
 async function display_current_space_picture(date) {
+  dom.live_date.innerHTML = loadspinner();
+  dom.apod_image.innerHTML = loadspinner();
+  dom.apod_title.innerHTML = loadspinner();
+  dom.apod_date_detail.innerHTML = loadspinner();
+  dom.apod_explanation.innerHTML = loadspinner();
+  dom.apod_copyright.innerHTML = loadspinner();
+  dom.apod_date_info.innerHTML = loadspinner();
+  dom.media_type.innerHTML = loadspinner();
   let data = await fetchdata_space_today(
     `https://api.nasa.gov/planetary/apod?api_key=rnIs5dw7lTBxZWyzLT2A6C1dSyzI8rOfdcAlvp4S&date=${date}`
   );
@@ -138,7 +155,7 @@ async function display_current_space_picture(date) {
   dom.apod_title.innerHTML = data.title;
   dom.apod_date_detail.innerHTML = data.date;
   dom.apod_explanation.innerHTML = data.explanation;
-  dom.apod_copyright.innerHTML = data.copyright;
+  dom.apod_copyright.innerHTML = !data.copyright ? "" : data.copyright;
   dom.apod_date_info.innerHTML = data.date;
   dom.media_type.innerHTML = data.media_type;
 }
